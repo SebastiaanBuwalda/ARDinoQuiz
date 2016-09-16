@@ -1,0 +1,3759 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_GIWorkflowMode: 1
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &26
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: 0.16666666
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &166568991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 166568992}
+  - 222: {fileID: 166568994}
+  - 114: {fileID: 166568993}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &166568992
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 166568991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 265263134}
+  m_Father: {fileID: 498318939}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1.9850006, y: 236.16501}
+  m_SizeDelta: {x: 354.03, y: 154.87}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &166568993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 166568991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &166568994
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 166568991}
+--- !u!1001 &166596878
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1591555086}
+    m_Modifications:
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11486386, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: objectToActivate
+      value: 
+      objectReference: {fileID: 1836797516}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.04999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.04999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426880, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: scale
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426880, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: Health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426880, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: AI
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426880, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: EyesSkin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426880, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: BodySkin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20538516, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426880, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 160352, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 160352, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6557712, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+    - {fileID: 8296246, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+    - {fileID: 11426880, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &191839517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100150, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 191839518}
+  - 33: {fileID: 191839520}
+  - 23: {fileID: 191839519}
+  m_Layer: 0
+  m_Name: Cylinder.27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &191839518
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400150, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 191839517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.7970343, y: 1.9791414, z: 3.0378091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 309239768}
+  m_RootOrder: 1
+--- !u!23 &191839519
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300150, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 191839517}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 733d5d98d55d241d49c95e85b6d1d5c1, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &191839520
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300150, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 191839517}
+  m_Mesh: {fileID: 4300106, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+--- !u!1 &265263133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 186622, guid: 700c11c01e6584746906ab345d9873d6, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 265263134}
+  - 222: {fileID: 265263136}
+  - 114: {fileID: 265263135}
+  m_Layer: 5
+  m_Name: QuizText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &265263134
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22480252, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 265263133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 166568992}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.65000916, y: -3.449997}
+  m_SizeDelta: {x: 3.5, y: 32.899994}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &265263135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11466580, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 265263133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PLACEHOLDER
+--- !u!222 &265263136
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22220962, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 265263133}
+--- !u!1 &309239767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100272, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 309239768}
+  m_Layer: 0
+  m_Name: German Flag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309239768
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400272, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 309239767}
+  m_LocalRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 0.376, y: -0.30500007, z: -0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_Children:
+  - {fileID: 2103677709}
+  - {fileID: 191839518}
+  m_Father: {fileID: 1146419142}
+  m_RootOrder: 0
+--- !u!1 &358399849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e426137a9cfec4162b6e95c54e00fb91, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 358399850}
+  - 114: {fileID: 358399851}
+  m_Layer: 10
+  m_Name: BLUEJAY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &358399850
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e426137a9cfec4162b6e95c54e00fb91, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358399849}
+  m_LocalRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.39999992, z: 0.39999992}
+  m_Children:
+  - {fileID: 2027411584}
+  m_Father: {fileID: 481799172}
+  m_RootOrder: 0
+--- !u!114 &358399851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358399849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2f742664e484449914b149cb43be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnswer: Birds
+  quizObject: {fileID: 434171835}
+--- !u!1 &434171832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 434171833}
+  - 114: {fileID: 434171835}
+  - 82: {fileID: 434171834}
+  m_Layer: 0
+  m_Name: QuizHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &434171833
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 434171832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 9
+--- !u!82 &434171834
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 434171832}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &434171835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 434171832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7102bad8ce7d747e493ee8838fbc1350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mySource: {fileID: 434171834}
+  Correct: {fileID: 8300000, guid: 579b4b3eff7164492bb288d57ab5db05, type: 3}
+  InCorrect: {fileID: 8300000, guid: 521e26f5473d743139e323ceff0a54ee, type: 3}
+  questionList:
+  - What does this dino eat?
+  - This dino is the ancestor of...
+  - The first fossil of this dino was found in...
+  answerList:
+  - Meat
+  - Birds
+  - 3
+  maxQuestionNumber: 3
+  quizText: {fileID: 265263135}
+--- !u!1 &454201467 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+  m_PrefabInternal: {fileID: 1825827750}
+--- !u!114 &454201468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454201467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2f742664e484449914b149cb43be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnswer: cows
+  quizObject: {fileID: 434171835}
+--- !u!1 &481799171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481799172}
+  - 114: {fileID: 481799173}
+  m_Layer: 10
+  m_Name: Marker scene 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481799172
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 481799171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 358399850}
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 5
+--- !u!114 &481799173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 481799171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: birds
+--- !u!1 &498318935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 119252, guid: 700c11c01e6584746906ab345d9873d6, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 498318939}
+  - 223: {fileID: 498318938}
+  - 114: {fileID: 498318937}
+  - 114: {fileID: 498318936}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &498318936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11453964, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498318935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &498318937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11469090, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498318935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 3
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &498318938
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22376774, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498318935}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 0
+  m_Camera: {fileID: 597956065}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &498318939
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22452506, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498318935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 166568992}
+  - {fileID: 1836797520}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &597956059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 597956060}
+  - 20: {fileID: 597956065}
+  - 124: {fileID: 597956064}
+  - 92: {fileID: 597956063}
+  - 81: {fileID: 597956062}
+  - 114: {fileID: 597956061}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &597956060
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597956059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 8
+--- !u!114 &597956061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597956059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac62947536a3704295fb870f025f1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventReceiver: {fileID: 0}
+  Stereo: 0
+  StereoEye: 1
+  Optical: 0
+  OpticalParamsFilenameIndex: 0
+  OpticalParamsFilename: optical_param_left
+  OpticalParamsFileContents: 4028ee4b400000003ff89143c00000003fefde7080000000bfa796c7000000003fb3d7168000000000000000000000003fa99eca000000003fefd45780000000bfa88e06c00000000000000000000000bfb3480bc00000003faa7095c00000003fefc5d8800000000000000000000000405ca8eb40000000c02c3ae540000000c038fe3ba00000003ff0000000000000
+  OpticalEyeLateralOffsetRight: 0
+--- !u!81 &597956062
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597956059}
+  m_Enabled: 1
+--- !u!92 &597956063
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597956059}
+  m_Enabled: 1
+--- !u!124 &597956064
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597956059}
+  m_Enabled: 1
+--- !u!20 &597956065
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 597956059}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!1 &618347595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 618347596}
+  - 114: {fileID: 618347597}
+  m_Layer: 10
+  m_Name: Marker scene 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &618347596
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 618347595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1226253724}
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 3
+--- !u!114 &618347597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 618347595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: plants
+--- !u!1 &749452074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 749452075}
+  - 114: {fileID: 749452076}
+  - 82: {fileID: 749452077}
+  m_Layer: 0
+  m_Name: Scene root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &749452075
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749452074}
+  m_LocalRotation: {x: 0.7071069, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1562006353}
+  - {fileID: 1591555086}
+  - {fileID: 1236050839}
+  - {fileID: 618347596}
+  - {fileID: 1836108492}
+  - {fileID: 481799172}
+  - {fileID: 1146419142}
+  - {fileID: 1221945334}
+  - {fileID: 597956060}
+  - {fileID: 434171833}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!114 &749452076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749452074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365d48fee229c499493cd3bcf4e7a59d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  findMarkerTags: []
+  _findMarkerMode: 0
+--- !u!82 &749452077
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749452074}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d4fcb4ed1e9e74827956fe63ce65c7fc, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &877791245 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 461416, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
+  m_PrefabInternal: {fileID: 166596878}
+--- !u!1 &1030373638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1030373639}
+  - 33: {fileID: 1030373641}
+  - 23: {fileID: 1030373640}
+  m_Layer: 0
+  m_Name: Cube.28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1030373639
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030373638}
+  m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
+  m_LocalPosition: {x: -4.774352, y: 3.2603972, z: 3.0378091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2075685621}
+  m_RootOrder: 0
+--- !u!23 &1030373640
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300040, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030373638}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ae40f78f6fbbe45ffb9ed166bf36d7c9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1030373641
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300040, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030373638}
+  m_Mesh: {fileID: 4300108, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+--- !u!1001 &1114245626
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 877791245}
+    m_Modifications:
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: InitialModule.rotation3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+      propertyPath: scalingMode
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f288941371a39be4aafd92f33205c95c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1146419141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1146419142}
+  - 114: {fileID: 1146419143}
+  m_Layer: 10
+  m_Name: Marker scene 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1146419142
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146419141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 309239768}
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 6
+--- !u!114 &1146419143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146419141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: germany
+--- !u!1 &1192976668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1192976671}
+  - 114: {fileID: 1192976670}
+  - 114: {fileID: 1192976669}
+  - 114: {fileID: 1192976672}
+  - 114: {fileID: 1192976673}
+  - 114: {fileID: 1192976674}
+  - 114: {fileID: 1192976676}
+  - 114: {fileID: 1192976675}
+  - 114: {fileID: 1192976678}
+  - 114: {fileID: 1192976677}
+  m_Layer: 0
+  m_Name: ARToolKit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1192976669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: hiro
+  PatternFilenameIndex: 2
+  PatternFilename: patt.france
+  PatternContents: " 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n
+    250 191 191 213 191 191 223 255 239 213 255 221 238 255 213 255\n 238  77 191
+    213  77 191  86 245 133  58 255 119 104 255  90 255\n 238  51 128 204  51 128
+    \ 83 248  95 136 207 119 131 204  90 255\n 238 102 255 255 102 255  83 186  42
+    \ 64 103 119 247  83  90 255\n 242 140 255 255 140 255 136 145 215 255 119 153
+    255 179 131 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 146 116 130 207  64  64 112 255 255 255 255 255 255\n 255 255 205 129 255
+    184 161 128 255 255 255 255 255 255 255 255\n 250 128 104 189 255 255 191  64
+    128 183 255 255 255 255 255 255\n 255 255 227  90 255 100 154 128 255 255 255
+    255 255 255 255 255\n 255 255 255 182 128 184 223 128 128 159 255 255 255 255
+    255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 250 191 191 213 191 191 223 255 239 213
+    255 221 238 255 213 255\n 238  77 191 213  77 191  86 245 133  58 255 119 104
+    255  90 255\n 238  51 128 204  51 128  83 248  95 136 207 119 131 204  90 255\n
+    238 102 255 255 102 255  83 186  42  64 103 119 247  83  90 255\n 242 140 255
+    255 140 255 136 145 215 255 119 153 255 179 131 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 255 255 146 116 130 207  64  64 112 255 255
+    255 255 255 255\n 255 255 205 129 255 184 161 128 255 255 255 255 255 255 255
+    255\n 250 128 104 189 255 255 191  64 128 183 255 255 255 255 255 255\n 255 255
+    227  90 255 100 154 128 255 255 255 255 255 255 255 255\n 255 255 255 182 128
+    184 223 128 128 159 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 250
+    191 191 213 191 191 223 255 239 213 255 221 238 255 213 255\n 238  77 191 213
+    \ 77 191  86 245 133  58 255 119 104 255  90 255\n 238  51 128 204  51 128  83
+    248  95 136 207 119 131 204  90 255\n 238 102 255 255 102 255  83 186  42  64
+    103 119 247  83  90 255\n 242 140 255 255 140 255 136 145 215 255 119 153 255
+    179 131 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    146 116 130 207  64  64 112 255 255 255 255 255 255\n 255 255 205 129 255 184
+    161 128 255 255 255 255 255 255 255 255\n 250 128 104 189 255 255 191  64 128
+    183 255 255 255 255 255 255\n 255 255 227  90 255 100 154 128 255 255 255 255
+    255 255 255 255\n 255 255 255 182 128 184 223 128 128 159 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n\n 225 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 225 213  90  90  90 131 255 255 255 255 255
+    255 255 255 255 255\n 225 255 255 204  83 179 255 255 255 255 255 255 255 255
+    255 255\n 225 238 104 131 247 255 255 255 255 255 255 255 255 255 255 255\n 225
+    221 119 119 119 153 255 255 255 255 255 255 255 255 255 255\n 225 255 255 207
+    103 119 255 255 255 255 255 255 255 255 255 255\n 225 213  58 136  64 255 255
+    255 112 255 183 255 159 255 255 255\n 225 239 133  95  42 215 255 255  64 255
+    128 255 128 255 255 255\n 225 255 245 248 186 145 255 255  64 128  64 128 128
+    255 255 255\n 225 223  86  83  83 136 255 255 207 161 191 154 223 255 255 255\n
+    225 191 191 128 255 255 255 255 130 184 255 100 184 255 255 255\n 225 191  77
+    \ 51 102 140 255 255 116 255 255 255 128 255 255 255\n 225 213 213 204 255 255
+    255 255 146 129 189  90 182 255 255 255\n 225 191 191 128 255 255 255 255 255
+    205 104 227 255 255 255 255\n 225 191  77  51 102 140 255 255 255 255 128 255
+    255 255 255 255\n 225 250 238 238 238 242 255 255 255 255 250 255 255 255 255
+    255\n 225 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 225 213
+    \ 90  90  90 131 255 255 255 255 255 255 255 255 255 255\n 225 255 255 204  83
+    179 255 255 255 255 255 255 255 255 255 255\n 225 238 104 131 247 255 255 255
+    255 255 255 255 255 255 255 255\n 225 221 119 119 119 153 255 255 255 255 255
+    255 255 255 255 255\n 225 255 255 207 103 119 255 255 255 255 255 255 255 255
+    255 255\n 225 213  58 136  64 255 255 255 112 255 183 255 159 255 255 255\n 225
+    239 133  95  42 215 255 255  64 255 128 255 128 255 255 255\n 225 255 245 248
+    186 145 255 255  64 128  64 128 128 255 255 255\n 225 223  86  83  83 136 255
+    255 207 161 191 154 223 255 255 255\n 225 191 191 128 255 255 255 255 130 184
+    255 100 184 255 255 255\n 225 191  77  51 102 140 255 255 116 255 255 255 128
+    255 255 255\n 225 213 213 204 255 255 255 255 146 129 189  90 182 255 255 255\n
+    225 191 191 128 255 255 255 255 255 205 104 227 255 255 255 255\n 225 191  77
+    \ 51 102 140 255 255 255 255 128 255 255 255 255 255\n 225 250 238 238 238 242
+    255 255 255 255 250 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 225 213  90  90  90 131 255 255 255 255 255 255
+    255 255 255 255\n 225 255 255 204  83 179 255 255 255 255 255 255 255 255 255
+    255\n 225 238 104 131 247 255 255 255 255 255 255 255 255 255 255 255\n 225 221
+    119 119 119 153 255 255 255 255 255 255 255 255 255 255\n 225 255 255 207 103
+    119 255 255 255 255 255 255 255 255 255 255\n 225 213  58 136  64 255 255 255
+    112 255 183 255 159 255 255 255\n 225 239 133  95  42 215 255 255  64 255 128
+    255 128 255 255 255\n 225 255 245 248 186 145 255 255  64 128  64 128 128 255
+    255 255\n 225 223  86  83  83 136 255 255 207 161 191 154 223 255 255 255\n 225
+    191 191 128 255 255 255 255 130 184 255 100 184 255 255 255\n 225 191  77  51
+    102 140 255 255 116 255 255 255 128 255 255 255\n 225 213 213 204 255 255 255
+    255 146 129 189  90 182 255 255 255\n 225 191 191 128 255 255 255 255 255 205
+    104 227 255 255 255 255\n 225 191  77  51 102 140 255 255 255 255 128 255 255
+    255 255 255\n 225 250 238 238 238 242 255 255 255 255 250 255 255 255 255 255\n\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 159 128 128
+    223 184 128 182 255 255 255\n 255 255 255 255 255 255 255 255 128 154 100 255
+    \ 90 227 255 255\n 255 255 255 255 255 255 183 128  64 191 255 255 189 104 128
+    250\n 255 255 255 255 255 255 255 255 128 161 184 255 129 205 255 255\n 255 255
+    255 255 255 255 112  64  64 207 130 116 146 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 255 131 179 255 153 119 255 215 145 136 255
+    140 255 255 140 242\n 255  90  83 247 119 103  64  42 186  83 255 102 255 255
+    102 238\n 255  90 204 131 119 207 136  95 248  83 128  51 204 128  51 238\n 255
+    \ 90 255 104 119 255  58 133 245  86 191  77 213 191  77 238\n 255 213 255 238
+    221 255 213 239 255 223 191 191 213 191 191 250\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 255 255 255 255 255 159 128 128 223 184 128 182 255 255 255\n 255 255 255
+    255 255 255 255 255 128 154 100 255  90 227 255 255\n 255 255 255 255 255 255
+    183 128  64 191 255 255 189 104 128 250\n 255 255 255 255 255 255 255 255 128
+    161 184 255 129 205 255 255\n 255 255 255 255 255 255 112  64  64 207 130 116
+    146 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 131
+    179 255 153 119 255 215 145 136 255 140 255 255 140 242\n 255  90  83 247 119
+    103  64  42 186  83 255 102 255 255 102 238\n 255  90 204 131 119 207 136  95
+    248  83 128  51 204 128  51 238\n 255  90 255 104 119 255  58 133 245  86 191
+    \ 77 213 191  77 238\n 255 213 255 238 221 255 213 239 255 223 191 191 213 191
+    191 250\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 159 128 128 223
+    184 128 182 255 255 255\n 255 255 255 255 255 255 255 255 128 154 100 255  90
+    227 255 255\n 255 255 255 255 255 255 183 128  64 191 255 255 189 104 128 250\n
+    255 255 255 255 255 255 255 255 128 161 184 255 129 205 255 255\n 255 255 255
+    255 255 255 112  64  64 207 130 116 146 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 131 179 255 153 119 255 215 145 136 255 140
+    255 255 140 242\n 255  90  83 247 119 103  64  42 186  83 255 102 255 255 102
+    238\n 255  90 204 131 119 207 136  95 248  83 128  51 204 128  51 238\n 255  90
+    255 104 119 255  58 133 245  86 191  77 213 191  77 238\n 255 213 255 238 221
+    255 213 239 255 223 191 191 213 191 191 250\n 225 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225\n\n 255 255 255 255 255 250 255 255 255 255 242
+    238 238 238 250 225\n 255 255 255 255 255 128 255 255 255 255 140 102  51  77
+    191 225\n 255 255 255 255 227 104 205 255 255 255 255 255 128 191 191 225\n 255
+    255 255 182  90 189 129 146 255 255 255 255 204 213 213 225\n 255 255 255 128
+    255 255 255 116 255 255 140 102  51  77 191 225\n 255 255 255 184 100 255 184
+    130 255 255 255 255 128 191 191 225\n 255 255 255 223 154 191 161 207 255 255
+    136  83  83  86 223 225\n 255 255 255 128 128  64 128  64 255 255 145 186 248
+    245 255 225\n 255 255 255 128 255 128 255  64 255 255 215  42  95 133 239 225\n
+    255 255 255 159 255 183 255 112 255 255 255  64 136  58 213 225\n 255 255 255
+    255 255 255 255 255 255 255 119 103 207 255 255 225\n 255 255 255 255 255 255
+    255 255 255 255 153 119 119 119 221 225\n 255 255 255 255 255 255 255 255 255
+    255 255 247 131 104 238 225\n 255 255 255 255 255 255 255 255 255 255 179  83
+    204 255 255 225\n 255 255 255 255 255 255 255 255 255 255 131  90  90  90 213
+    225\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 225\n 255 255
+    255 255 255 250 255 255 255 255 242 238 238 238 250 225\n 255 255 255 255 255
+    128 255 255 255 255 140 102  51  77 191 225\n 255 255 255 255 227 104 205 255
+    255 255 255 255 128 191 191 225\n 255 255 255 182  90 189 129 146 255 255 255
+    255 204 213 213 225\n 255 255 255 128 255 255 255 116 255 255 140 102  51  77
+    191 225\n 255 255 255 184 100 255 184 130 255 255 255 255 128 191 191 225\n 255
+    255 255 223 154 191 161 207 255 255 136  83  83  86 223 225\n 255 255 255 128
+    128  64 128  64 255 255 145 186 248 245 255 225\n 255 255 255 128 255 128 255
+    \ 64 255 255 215  42  95 133 239 225\n 255 255 255 159 255 183 255 112 255 255
+    255  64 136  58 213 225\n 255 255 255 255 255 255 255 255 255 255 119 103 207
+    255 255 225\n 255 255 255 255 255 255 255 255 255 255 153 119 119 119 221 225\n
+    255 255 255 255 255 255 255 255 255 255 255 247 131 104 238 225\n 255 255 255
+    255 255 255 255 255 255 255 179  83 204 255 255 225\n 255 255 255 255 255 255
+    255 255 255 255 131  90  90  90 213 225\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 225\n 255 255 255 255 255 250 255 255 255 255 242 238
+    238 238 250 225\n 255 255 255 255 255 128 255 255 255 255 140 102  51  77 191
+    225\n 255 255 255 255 227 104 205 255 255 255 255 255 128 191 191 225\n 255 255
+    255 182  90 189 129 146 255 255 255 255 204 213 213 225\n 255 255 255 128 255
+    255 255 116 255 255 140 102  51  77 191 225\n 255 255 255 184 100 255 184 130
+    255 255 255 255 128 191 191 225\n 255 255 255 223 154 191 161 207 255 255 136
+    \ 83  83  86 223 225\n 255 255 255 128 128  64 128  64 255 255 145 186 248 245
+    255 225\n 255 255 255 128 255 128 255  64 255 255 215  42  95 133 239 225\n 255
+    255 255 159 255 183 255 112 255 255 255  64 136  58 213 225\n 255 255 255 255
+    255 255 255 255 255 255 119 103 207 255 255 225\n 255 255 255 255 255 255 255
+    255 255 255 153 119 119 119 221 225\n 255 255 255 255 255 255 255 255 255 255
+    255 247 131 104 238 225\n 255 255 255 255 255 255 255 255 255 255 179  83 204
+    255 255 225\n 255 255 255 255 255 255 255 255 255 255 131  90  90  90 213 225\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 225\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1192976670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe4ec33cee90c844ea1bcc2cd642033e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNativeGLTexturingIfAvailable: 0
+  AllowNonRGBVideo: 1
+  QuitOnEscOrBack: 1
+  AutoStartAR: 1
+  videoCParamName0: camera_para
+  videoConfigurationWindows0: -showDialog -flipV
+  videoConfigurationMacOSX0: -width=640 -height=480
+  videoConfigurationiOS0: 
+  videoConfigurationAndroid0: 
+  videoConfigurationWindowsStore0: -device=WinMC -format=BGRA -position=rear
+  videoConfigurationLinux0: 
+  BackgroundLayer0: 8
+  VideoIsStereo: 0
+  transL2RName: transL2R
+  videoCParamName1: camera_paraR
+  videoConfigurationWindows1: -devNum=2 -showDialog -flipV
+  videoConfigurationMacOSX1: -source=1 -width=640 -height=480
+  videoConfigurationiOS1: 
+  videoConfigurationAndroid1: 
+  videoConfigurationWindowsStore1: -device=WinMC -format=BGRA
+  videoConfigurationLinux1: 
+  BackgroundLayer1: 9
+  NearPlane: 0.01
+  FarPlane: 5
+  ContentRotate90: 1
+  ContentFlipH: 1
+  ContentFlipV: 1
+  ContentAlign: 4
+  currentContentMode: 1
+  currentThresholdMode: 0
+  currentThreshold: 100
+  currentLabelingMode: 1
+  currentTemplateSize: 16
+  currentTemplateCountMax: 25
+  currentBorderSize: 0.25
+  currentPatternDetectionMode: 0
+  currentMatrixCodeType: 3
+  currentImageProcMode: 0
+  currentUseVideoBackground: 1
+  currentNFTMultiMode: 0
+  currentLogLevel: 1
+  scrollPosition: {x: 0, y: 0}
+--- !u!4 &1192976671
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.02, z: 0.000000007450581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!114 &1192976672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: kanji
+  PatternFilenameIndex: 3
+  PatternFilename: patt.germany
+  PatternContents: " 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n
+    255 255 223 136 201 255 255 255 255 255 255 255 255 255 255 255\n 255 245  84
+    191  97 196 245 210 255 240 212 255 255 255 255 255\n 255 192 169 223 184 208
+    100 109 147  82 159 255 255 255 255 255\n 255 202 153 223 141 128  61 128 164
+    128 255 128 172 255 255 255\n 255 255  82 128  97 128  91 107 157 128 255 255
+    255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 231 180 181 167
+    206 240 136 218 208 189 177 211 255 210 254\n 255 191 114  89 146  59 186 171
+    \ 92 128 152  84 152 195  70 255\n 255 191 174 128 208  64 147 142 109 128 246
+    111 231  56 138 255\n 255 207 194 159 220 112 145 117 100 128 248 147 255  80
+    230 255\n 255 255 255 255 255 255 255 255 255 255 255 255 206  93 255 255\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 255 255 223 136 201 255 255 255 255 255
+    255 255 255 255 255 255\n 255 245  84 191  97 196 245 210 255 240 212 255 255
+    255 255 255\n 255 192 169 223 184 208 100 109 147  82 159 255 255 255 255 255\n
+    255 202 153 223 141 128  61 128 164 128 255 128 172 255 255 255\n 255 255  82
+    128  97 128  91 107 157 128 255 255 255 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\n 255 231 180 181 167 206 240 136 218 208 189 177 211 255 210
+    254\n 255 191 114  89 146  59 186 171  92 128 152  84 152 195  70 255\n 255 191
+    174 128 208  64 147 142 109 128 246 111 231  56 138 255\n 255 207 194 159 220
+    112 145 117 100 128 248 147 255  80 230 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 206  93 255 255\n 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 255
+    255 223 136 201 255 255 255 255 255 255 255 255 255 255 255\n 255 245  84 191
+    \ 97 196 245 210 255 240 212 255 255 255 255 255\n 255 192 169 223 184 208 100
+    109 147  82 159 255 255 255 255 255\n 255 202 153 223 141 128  61 128 164 128
+    255 128 172 255 255 255\n 255 255  82 128  97 128  91 107 157 128 255 255 255
+    255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 231 180 181 167 206
+    240 136 218 208 189 177 211 255 210 254\n 255 191 114  89 146  59 186 171  92
+    128 152  84 152 195  70 255\n 255 191 174 128 208  64 147 142 109 128 246 111
+    231  56 138 255\n 255 207 194 159 220 112 145 117 100 128 248 147 255  80 230
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 206  93 255 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n\n 225 255 255 255 255 255 255 255
+    255 254 255 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255 210  70
+    138 230 255 255 255\n 225 255 255 255 255 255 255 255 255 255 195  56  80  93
+    255 255\n 225 255 255 255 172 255 255 255 255 211 152 231 255 206 255 255\n 225
+    255 255 255 128 255 255 255 255 177  84 111 147 255 255 255\n 225 255 212 159
+    255 255 255 255 255 189 152 246 248 255 255 255\n 225 255 240  82 128 128 255
+    255 255 208 128 128 128 255 255 255\n 225 255 255 147 164 157 255 255 255 218
+    \ 92 109 100 255 255 255\n 225 255 210 109 128 107 255 255 255 136 171 142 117
+    255 255 255\n 225 255 245 100  61  91 255 255 255 240 186 147 145 255 255 255\n
+    225 255 196 208 128 128 255 255 255 206  59  64 112 255 255 255\n 225 201  97
+    184 141  97 255 255 255 167 146 208 220 255 255 255\n 225 136 191 223 223 128
+    255 255 255 181  89 128 159 255 255 255\n 225 223  84 169 153  82 255 255 255
+    180 114 174 194 255 255 255\n 225 255 245 192 202 255 255 255 255 231 191 191
+    207 255 255 255\n 225 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 225 255 255 255 255 255 255 255 255 254 255 255 255 255 255 255\n 225 255
+    255 255 255 255 255 255 255 210  70 138 230 255 255 255\n 225 255 255 255 255
+    255 255 255 255 255 195  56  80  93 255 255\n 225 255 255 255 172 255 255 255
+    255 211 152 231 255 206 255 255\n 225 255 255 255 128 255 255 255 255 177  84
+    111 147 255 255 255\n 225 255 212 159 255 255 255 255 255 189 152 246 248 255
+    255 255\n 225 255 240  82 128 128 255 255 255 208 128 128 128 255 255 255\n 225
+    255 255 147 164 157 255 255 255 218  92 109 100 255 255 255\n 225 255 210 109
+    128 107 255 255 255 136 171 142 117 255 255 255\n 225 255 245 100  61  91 255
+    255 255 240 186 147 145 255 255 255\n 225 255 196 208 128 128 255 255 255 206
+    \ 59  64 112 255 255 255\n 225 201  97 184 141  97 255 255 255 167 146 208 220
+    255 255 255\n 225 136 191 223 223 128 255 255 255 181  89 128 159 255 255 255\n
+    225 223  84 169 153  82 255 255 255 180 114 174 194 255 255 255\n 225 255 245
+    192 202 255 255 255 255 231 191 191 207 255 255 255\n 225 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255
+    254 255 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255 210  70 138
+    230 255 255 255\n 225 255 255 255 255 255 255 255 255 255 195  56  80  93 255
+    255\n 225 255 255 255 172 255 255 255 255 211 152 231 255 206 255 255\n 225 255
+    255 255 128 255 255 255 255 177  84 111 147 255 255 255\n 225 255 212 159 255
+    255 255 255 255 189 152 246 248 255 255 255\n 225 255 240  82 128 128 255 255
+    255 208 128 128 128 255 255 255\n 225 255 255 147 164 157 255 255 255 218  92
+    109 100 255 255 255\n 225 255 210 109 128 107 255 255 255 136 171 142 117 255
+    255 255\n 225 255 245 100  61  91 255 255 255 240 186 147 145 255 255 255\n 225
+    255 196 208 128 128 255 255 255 206  59  64 112 255 255 255\n 225 201  97 184
+    141  97 255 255 255 167 146 208 220 255 255 255\n 225 136 191 223 223 128 255
+    255 255 181  89 128 159 255 255 255\n 225 223  84 169 153  82 255 255 255 180
+    114 174 194 255 255 255\n 225 255 245 192 202 255 255 255 255 231 191 191 207
+    255 255 255\n 225 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255  93 206 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 230  80 255 147 248 128 100 117
+    145 112 220 159 194 207 255\n 255 138  56 231 111 246 128 109 142 147  64 208
+    128 174 191 255\n 255  70 195 152  84 152 128  92 171 186  59 146  89 114 191
+    255\n 254 210 255 211 177 189 208 218 136 240 206 167 181 180 231 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 128 157 107  91 128
+    \ 97 128  82 255 255\n 255 255 255 172 128 255 128 164 128  61 128 141 223 153
+    202 255\n 255 255 255 255 255 159  82 147 109 100 208 184 223 169 192 255\n 255
+    255 255 255 255 212 240 255 210 245 196  97 191  84 245 255\n 255 255 255 255
+    255 255 255 255 255 255 255 201 136 223 255 255\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\n 255 255  93 206 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 230  80 255 147 248 128 100 117 145 112 220 159 194 207 255\n 255 138  56
+    231 111 246 128 109 142 147  64 208 128 174 191 255\n 255  70 195 152  84 152
+    128  92 171 186  59 146  89 114 191 255\n 254 210 255 211 177 189 208 218 136
+    240 206 167 181 180 231 255\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 255 255 255 128 157 107  91 128  97 128  82 255 255\n 255 255 255 172 128
+    255 128 164 128  61 128 141 223 153 202 255\n 255 255 255 255 255 159  82 147
+    109 100 208 184 223 169 192 255\n 255 255 255 255 255 212 240 255 210 245 196
+    \ 97 191  84 245 255\n 255 255 255 255 255 255 255 255 255 255 255 201 136 223
+    255 255\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 255 255  93 206 255 255 255
+    255 255 255 255 255 255 255 255 255\n 255 230  80 255 147 248 128 100 117 145
+    112 220 159 194 207 255\n 255 138  56 231 111 246 128 109 142 147  64 208 128
+    174 191 255\n 255  70 195 152  84 152 128  92 171 186  59 146  89 114 191 255\n
+    254 210 255 211 177 189 208 218 136 240 206 167 181 180 231 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 255 255 255 255 255 128 157 107  91 128  97
+    128  82 255 255\n 255 255 255 172 128 255 128 164 128  61 128 141 223 153 202
+    255\n 255 255 255 255 255 159  82 147 109 100 208 184 223 169 192 255\n 255 255
+    255 255 255 212 240 255 210 245 196  97 191  84 245 255\n 255 255 255 255 255
+    255 255 255 255 255 255 201 136 223 255 255\n 225 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225\n\n 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 225\n 255 255 255 207 191 191 231 255 255 255 255 202 192 245
+    255 225\n 255 255 255 194 174 114 180 255 255 255  82 153 169  84 223 225\n 255
+    255 255 159 128  89 181 255 255 255 128 223 223 191 136 225\n 255 255 255 220
+    208 146 167 255 255 255  97 141 184  97 201 225\n 255 255 255 112  64  59 206
+    255 255 255 128 128 208 196 255 225\n 255 255 255 145 147 186 240 255 255 255
+    \ 91  61 100 245 255 225\n 255 255 255 117 142 171 136 255 255 255 107 128 109
+    210 255 225\n 255 255 255 100 109  92 218 255 255 255 157 164 147 255 255 225\n
+    255 255 255 128 128 128 208 255 255 255 128 128  82 240 255 225\n 255 255 255
+    248 246 152 189 255 255 255 255 255 159 212 255 225\n 255 255 255 147 111  84
+    177 255 255 255 255 128 255 255 255 225\n 255 255 206 255 231 152 211 255 255
+    255 255 172 255 255 255 225\n 255 255  93  80  56 195 255 255 255 255 255 255
+    255 255 255 225\n 255 255 255 230 138  70 210 255 255 255 255 255 255 255 255
+    225\n 255 255 255 255 255 255 254 255 255 255 255 255 255 255 255 225\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 225\n 255 255 255 207 191
+    191 231 255 255 255 255 202 192 245 255 225\n 255 255 255 194 174 114 180 255
+    255 255  82 153 169  84 223 225\n 255 255 255 159 128  89 181 255 255 255 128
+    223 223 191 136 225\n 255 255 255 220 208 146 167 255 255 255  97 141 184  97
+    201 225\n 255 255 255 112  64  59 206 255 255 255 128 128 208 196 255 225\n 255
+    255 255 145 147 186 240 255 255 255  91  61 100 245 255 225\n 255 255 255 117
+    142 171 136 255 255 255 107 128 109 210 255 225\n 255 255 255 100 109  92 218
+    255 255 255 157 164 147 255 255 225\n 255 255 255 128 128 128 208 255 255 255
+    128 128  82 240 255 225\n 255 255 255 248 246 152 189 255 255 255 255 255 159
+    212 255 225\n 255 255 255 147 111  84 177 255 255 255 255 128 255 255 255 225\n
+    255 255 206 255 231 152 211 255 255 255 255 172 255 255 255 225\n 255 255  93
+    \ 80  56 195 255 255 255 255 255 255 255 255 255 225\n 255 255 255 230 138  70
+    210 255 255 255 255 255 255 255 255 225\n 255 255 255 255 255 255 254 255 255
+    255 255 255 255 255 255 225\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 225\n 255 255 255 207 191 191 231 255 255 255 255 202 192 245 255
+    225\n 255 255 255 194 174 114 180 255 255 255  82 153 169  84 223 225\n 255 255
+    255 159 128  89 181 255 255 255 128 223 223 191 136 225\n 255 255 255 220 208
+    146 167 255 255 255  97 141 184  97 201 225\n 255 255 255 112  64  59 206 255
+    255 255 128 128 208 196 255 225\n 255 255 255 145 147 186 240 255 255 255  91
+    \ 61 100 245 255 225\n 255 255 255 117 142 171 136 255 255 255 107 128 109 210
+    255 225\n 255 255 255 100 109  92 218 255 255 255 157 164 147 255 255 225\n 255
+    255 255 128 128 128 208 255 255 255 128 128  82 240 255 225\n 255 255 255 248
+    246 152 189 255 255 255 255 255 159 212 255 225\n 255 255 255 147 111  84 177
+    255 255 255 255 128 255 255 255 225\n 255 255 206 255 231 152 211 255 255 255
+    255 172 255 255 255 225\n 255 255  93  80  56 195 255 255 255 255 255 255 255
+    255 255 225\n 255 255 255 230 138  70 210 255 255 255 255 255 255 255 255 225\n
+    255 255 255 255 255 255 254 255 255 255 255 255 255 255 255 225\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1192976673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: meat
+  PatternFilenameIndex: 6
+  PatternFilename: patt.meaty
+  PatternContents: " 120 164 158 161 155 152 157 153 149 158 148 147 155 144 148 149\n
+    122 171 172 172 171 173 171 172 171 171 171 171 170 171 171 171\n 125 171 172
+    172 170 171 171 171 171 171 170 171 170 172 170 170\n 118 171 171 170 170 170
+    171 170 171 171 171 170 170 171 170 169\n 111 144 164 169 169 137 173 168 169
+    171 170 169 170 170 170 168\n 120  80 105 169 157  39 165 170 170 171 169 170
+    172 170 140 128\n 121  73  61 169 102  41 169 103 110 112 164  99  91 143  91
+    \ 70\n 122  63  82 144  75  70 147  53 132  57 161 131  88 103 121 118\n 136  61
+    139  52 111  63 146  83 163 124 120 104 121  92 121 124\n 137  80 165  70 153
+    \ 77 169 105  91 124 142  84  96  76 135  79\n 136 165 163 165 165 164 164 166
+    165 164 165 163 164 164 165 166\n 139 165 165 165 166 166 165 165 165 165 163
+    162 164 164 163 166\n 144 163 165 164 164 165 165 165 165 164 163 163 164 163
+    164 168\n 146 164 164 163 164 165 165 164 163 161 161 163 165 164 164 165\n 155
+    162 162 163 164 164 163 162 161 160 161 163 163 163 162 167\n 165 164 164 163
+    166 164 164 162 164 164 164 165 165 165 165 168\n 118 162 157 161 154 150 156
+    150 148 158 147 146 155 145 147 149\n 118 168 169 169 168 168 168 170 168 168
+    168 168 167 169 168 169\n 121 168 169 169 167 168 169 169 168 168 168 168 168
+    169 167 168\n 113 166 168 167 167 167 168 168 168 168 168 167 168 168 167 167\n
+    106 140 159 166 166 131 167 165 166 168 167 167 166 166 165 164\n 117  76  99
+    167 155  31 158 166 166 166 166 167 167 164 134 121\n 117  70  56 165  99  35
+    165  97 102 103 155  90  81 135  86  65\n 117  60  78 139  73  67 143  48 125
+    \ 49 155 124  79  96 118 115\n 132  58 136  49 110  61 141  78 159 120 117  99
+    114  87 117 119\n 132  78 165  70 152  76 167 101  85 120 139  80  91  71 132
+    \ 75\n 132 163 162 164 163 163 163 165 163 162 162 162 163 163 163 164\n 135 162
+    163 163 163 163 163 162 162 162 161 160 161 162 161 164\n 140 161 163 163 163
+    163 161 162 162 160 160 161 161 161 161 165\n 143 162 162 162 163 162 162 161
+    161 159 160 162 162 161 163 163\n 153 161 160 160 161 161 161 160 160 159 159
+    161 162 161 159 165\n 160 161 161 160 161 161 160 159 159 159 161 161 163 162
+    161 164\n 123 167 164 168 161 159 163 158 155 164 153 153 161 152 155 155\n 125
+    174 177 177 175 177 176 176 176 176 175 176 175 176 176 176\n 127 175 177 177
+    175 175 176 176 176 176 175 175 175 177 175 175\n 121 174 176 174 174 173 174
+    173 175 175 176 174 175 176 174 174\n 113 147 167 173 173 137 175 173 173 175
+    174 174 173 174 174 174\n 125  84 109 174 162  41 166 173 174 176 174 175 176
+    173 144 132\n 125  77  67 174 106  45 173 106 111 113 165 100  93 145  96  71\n
+    125  67  90 148  78  74 151  56 134  59 161 132  90 106 125 121\n 138  66 146
+    \ 57 115  67 150  88 169 129 124 108 123  95 124 126\n 141  90 176  81 163  86
+    176 112  97 129 148  92 103  81 139  81\n 140 172 171 173 173 172 173 174 172
+    170 171 171 172 172 171 171\n 144 170 170 171 172 173 173 171 170 171 170 168
+    169 171 168 170\n 150 170 171 171 170 171 170 171 170 170 170 168 170 170 168
+    172\n 152 171 172 171 170 170 170 168 168 166 168 170 171 170 170 170\n 160 168
+    167 168 169 169 168 166 169 168 166 169 171 170 168 171\n 167 168 168 167 169
+    168 167 166 169 168 168 168 170 169 168 171\n\n 149 171 170 169 168 128  70 118
+    124  79 166 166 168 165 167 168\n 148 171 170 170 170 140  91 121 121 135 165
+    163 164 164 162 165\n 144 171 172 171 170 170 143 103  92  76 164 164 163 164
+    163 165\n 155 170 170 170 170 172  91  88 121  96 164 164 164 165 163 165\n 147
+    171 171 170 169 170  99 131 104  84 163 162 163 163 163 165\n 148 171 170 171
+    170 169 164 161 120 142 165 163 163 161 161 164\n 158 171 171 171 171 171 112
+    \ 57 124 124 164 165 164 161 160 164\n 149 171 171 171 169 170 110 132 163  91
+    165 165 165 163 161 164\n 153 172 171 170 168 170 103  53  83 105 166 165 165
+    164 162 162\n 157 171 171 171 173 165 169 147 146 169 164 165 165 165 163 164\n
+    152 173 171 170 137  39  41  70  63  77 164 166 165 165 164 164\n 155 171 170
+    170 169 157 102  75 111 153 165 166 164 164 164 166\n 161 172 172 170 169 169
+    169 144  52  70 165 165 164 163 163 163\n 158 172 172 171 164 105  61  82 139
+    165 163 165 165 164 162 164\n 164 171 171 171 144  80  73  63  61  80 165 165
+    163 164 162 164\n 120 122 125 118 111 120 121 122 136 137 136 139 144 146 155
+    165\n 149 169 168 167 164 121  65 115 119  75 164 164 165 163 165 164\n 147 168
+    167 167 165 134  86 118 117 132 163 161 161 163 159 161\n 145 169 169 168 166
+    164 135  96  87  71 163 162 161 161 161 162\n 155 167 168 168 166 167  81  79
+    114  91 163 161 161 162 162 163\n 146 168 168 167 167 167  90 124  99  80 162
+    160 161 162 161 161\n 147 168 168 168 167 166 155 155 117 139 162 161 160 160
+    159 161\n 158 168 168 168 168 166 103  49 120 120 162 162 160 159 159 159\n 148
+    168 168 168 166 166 102 125 159  85 163 162 162 161 160 159\n 150 170 169 168
+    165 166  97  48  78 101 165 162 162 161 160 159\n 156 168 169 168 167 158 165
+    143 141 167 163 163 161 162 161 160\n 150 168 168 167 131  31  35  67  61  76
+    163 163 163 162 161 161\n 154 168 167 167 166 155  99  73 110 152 163 163 163
+    163 161 161\n 161 169 169 167 166 167 165 139  49  70 164 163 163 162 160 160\n
+    157 169 169 168 159  99  56  78 136 165 162 163 163 162 160 161\n 162 168 168
+    166 140  76  70  60  58  78 163 162 161 162 161 161\n 118 118 121 113 106 117
+    117 117 132 132 132 135 140 143 153 160\n 155 176 175 174 174 132  71 121 126
+    \ 81 171 170 172 170 171 171\n 155 176 175 174 174 144  96 125 124 139 171 168
+    168 170 168 168\n 152 176 177 176 174 173 145 106  95  81 172 171 170 170 170
+    169\n 161 175 175 175 173 176  93  90 123 103 172 169 170 171 171 170\n 153 176
+    175 174 174 175 100 132 108  92 171 168 168 170 169 168\n 153 175 175 176 174
+    174 165 161 124 148 171 170 170 168 166 168\n 164 176 176 175 175 176 113  59
+    129 129 170 171 170 166 168 168\n 155 176 176 175 173 174 111 134 169  97 172
+    170 170 168 169 169\n 158 176 176 173 173 173 106  56  88 112 174 171 171 168
+    166 166\n 163 176 176 174 175 166 173 151 150 176 173 173 170 170 168 167\n 159
+    177 175 173 137  41  45  74  67  86 172 173 171 170 169 168\n 161 175 175 174
+    173 162 106  78 115 163 173 172 170 170 169 169\n 168 177 177 174 173 174 174
+    148  57  81 173 171 171 171 168 167\n 164 177 177 176 167 109  67  90 146 176
+    171 170 171 172 167 168\n 167 174 175 174 147  84  77  67  66  90 172 170 170
+    171 168 168\n 123 125 127 121 113 125 125 125 138 141 140 144 150 152 160 167\n\n
+    168 165 165 165 165 164 164 164 162 164 164 166 163 164 164 165\n 167 162 163
+    163 163 161 160 161 162 163 164 164 163 162 162 155\n 165 164 164 165 163 161
+    161 163 164 165 165 164 163 164 164 146\n 168 164 163 164 163 163 164 165 165
+    165 165 164 164 165 163 144\n 166 163 164 164 162 163 165 165 165 165 166 166
+    165 165 165 139\n 166 165 164 164 163 165 164 165 166 164 164 165 165 163 165
+    136\n  79 135  76  96  84 142 124  91 105 169  77 153  70 165  80 137\n 124 121
+    \ 92 121 104 120 124 163  83 146  63 111  52 139  61 136\n 118 121 103  88 131
+    161  57 132  53 147  70  75 144  82  63 122\n  70  91 143  91  99 164 112 110
+    103 169  41 102 169  61  73 121\n 128 140 170 172 170 169 171 170 170 165  39
+    157 169 105  80 120\n 168 170 170 170 169 170 171 169 168 173 137 169 169 164
+    144 111\n 169 170 171 170 170 171 171 171 170 171 170 170 170 171 171 118\n 170
+    170 172 170 171 170 171 171 171 171 171 170 172 172 171 125\n 171 171 171 170
+    171 171 171 171 172 171 173 171 172 172 171 122\n 149 148 144 155 147 148 158
+    149 153 157 152 155 161 158 164 120\n 164 161 162 163 161 161 159 159 159 160
+    161 161 160 161 161 160\n 165 159 161 162 161 159 159 160 160 161 161 161 160
+    160 161 153\n 163 163 161 162 162 160 159 161 161 162 162 163 162 162 162 143\n
+    165 161 161 161 161 160 160 162 162 161 163 163 163 163 161 140\n 164 161 162
+    161 160 161 162 162 162 163 163 163 163 163 162 135\n 164 163 163 163 162 162
+    162 163 165 163 163 163 164 162 163 132\n  75 132  71  91  80 139 120  85 101
+    167  76 152  70 165  78 132\n 119 117  87 114  99 117 120 159  78 141  61 110
+    \ 49 136  58 132\n 115 118  96  79 124 155  49 125  48 143  67  73 139  78  60
+    117\n  65  86 135  81  90 155 103 102  97 165  35  99 165  56  70 117\n 121 134
+    164 167 167 166 166 166 166 158  31 155 167  99  76 117\n 164 165 166 166 167
+    167 168 166 165 167 131 166 166 159 140 106\n 167 167 168 168 167 168 168 168
+    168 168 167 167 167 168 166 113\n 168 167 169 168 168 168 168 168 169 169 168
+    167 169 169 168 121\n 169 168 169 167 168 168 168 168 170 168 168 168 169 169
+    168 118\n 149 147 145 155 146 147 158 148 150 156 150 154 161 157 162 118\n 171
+    168 169 170 168 168 168 169 166 167 168 169 167 168 168 167\n 171 168 170 171
+    169 166 168 169 166 168 169 169 168 167 168 160\n 170 170 170 171 170 168 166
+    168 168 170 170 170 171 172 171 152\n 172 168 170 170 168 170 170 170 171 170
+    171 170 171 171 170 150\n 170 168 171 169 168 170 171 170 171 173 173 172 171
+    170 170 144\n 171 171 172 172 171 171 170 172 174 173 172 173 173 171 172 140\n
+    \ 81 139  81 103  92 148 129  97 112 176  86 163  81 176  90 141\n 126 124  95
+    123 108 124 129 169  88 150  67 115  57 146  66 138\n 121 125 106  90 132 161
+    \ 59 134  56 151  74  78 148  90  67 125\n  71  96 145  93 100 165 113 111 106
+    173  45 106 174  67  77 125\n 132 144 173 176 175 174 176 174 173 166  41 162
+    174 109  84 125\n 174 174 174 173 174 174 175 173 173 175 137 173 173 167 147
+    113\n 174 174 176 175 174 176 175 175 173 174 173 174 174 176 174 121\n 175 175
+    177 175 175 175 176 176 176 176 175 175 177 177 175 127\n 176 176 176 175 176
+    175 176 176 176 176 177 175 177 177 174 125\n 155 155 152 161 153 153 164 155
+    158 163 159 161 168 164 167 123\n\n 165 155 146 144 139 136 137 136 122 121 120
+    111 118 125 122 120\n 164 162 164 163 165 165  80  61  63  73  80 144 171 171
+    171 164\n 164 162 164 165 165 163 165 139  82  61 105 164 171 172 172 158\n 163
+    163 163 164 165 165  70  52 144 169 169 169 170 172 172 161\n 166 164 164 164
+    166 165 153 111  75 102 157 169 170 170 171 155\n 164 164 165 165 166 164  77
+    \ 63  70  41  39 137 170 171 173 152\n 164 163 165 165 165 164 169 146 147 169
+    165 173 171 171 171 157\n 162 162 164 165 165 166 105  83  53 103 170 168 170
+    171 172 153\n 164 161 163 165 165 165  91 163 132 110 170 169 171 171 171 149\n
+    164 160 161 164 165 164 124 124  57 112 171 171 171 171 171 158\n 164 161 161
+    163 163 165 142 120 161 164 169 170 171 170 171 148\n 165 163 163 163 162 163
+    \ 84 104 131  99 170 169 170 171 171 147\n 165 163 165 164 164 164  96 121  88
+    \ 91 172 170 170 170 170 155\n 165 163 164 163 164 164  76  92 103 143 170 170
+    171 172 171 144\n 165 162 164 164 163 165 135 121 121  91 140 170 170 170 171
+    148\n 168 167 165 168 166 166  79 124 118  70 128 168 169 170 171 149\n 160 153
+    143 140 135 132 132 132 117 117 117 106 113 121 118 118\n 161 161 162 161 162
+    163  78  58  60  70  76 140 166 168 168 162\n 161 160 162 163 163 162 165 136
+    \ 78  56  99 159 168 169 169 157\n 160 160 162 163 163 164  70  49 139 165 167
+    166 167 169 169 161\n 161 161 163 163 163 163 152 110  73  99 155 166 167 167
+    168 154\n 161 161 162 163 163 163  76  61  67  35  31 131 167 168 168 150\n 160
+    161 162 161 163 163 167 141 143 165 158 167 168 169 168 156\n 159 160 161 162
+    162 165 101  78  48  97 166 165 168 169 170 150\n 159 160 161 162 162 163  85
+    159 125 102 166 166 168 168 168 148\n 159 159 159 160 162 162 120 120  49 103
+    166 168 168 168 168 158\n 161 159 160 160 161 162 139 117 155 155 166 167 168
+    168 168 147\n 161 161 162 161 160 162  80  99 124  90 167 167 167 168 168 146\n
+    163 162 162 161 161 163  91 114  79  81 167 166 168 168 167 155\n 162 161 161
+    161 162 163  71  87  96 135 164 166 168 169 169 145\n 161 159 163 161 161 163
+    132 117 118  86 134 165 167 167 168 147\n 164 165 163 165 164 164  75 119 115
+    \ 65 121 164 167 168 169 149\n 167 160 152 150 144 140 141 138 125 125 125 113
+    121 127 125 123\n 168 168 171 170 170 172  90  66  67  77  84 147 174 175 174
+    167\n 168 167 172 171 170 171 176 146  90  67 109 167 176 177 177 164\n 167 168
+    171 171 171 173  81  57 148 174 174 173 174 177 177 168\n 169 169 170 170 172
+    173 163 115  78 106 162 173 174 175 175 161\n 168 169 170 171 173 172  86  67
+    \ 74  45  41 137 173 175 177 159\n 167 168 170 170 173 173 176 150 151 173 166
+    175 174 176 176 163\n 166 166 168 171 171 174 112  88  56 106 173 173 173 176
+    176 158\n 169 169 168 170 170 172  97 169 134 111 174 173 175 176 176 155\n 168
+    168 166 170 171 170 129 129  59 113 176 175 175 176 176 164\n 168 166 168 170
+    170 171 148 124 161 165 174 174 176 175 175 153\n 168 169 170 168 168 171  92
+    108 132 100 175 174 174 175 176 153\n 170 171 171 170 169 172 103 123  90  93
+    176 173 175 175 175 161\n 169 170 170 170 171 172  81  95 106 145 173 174 176
+    177 176 152\n 168 168 170 168 168 171 139 124 125  96 144 174 174 175 176 155\n
+    171 171 170 172 170 171  81 126 121  71 132 174 174 175 176 155\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1192976674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: plants
+  PatternFilenameIndex: 7
+  PatternFilename: patt.plant
+  PatternContents: " 148 136 145 150 143 135 129 123 137 136 126 118 118 122 136 101\n
+    239 237 240 238 240 240 240 239 238 238 237 238 239 238 237 155\n 239 240 239
+    239 239 240 239 239 237 239 239 237 237 236 236 144\n 241 239 239 242 241 239
+    241 240 238 238 236 236 236 235 235 142\n 239 238 240 238 240 240 240 239 238
+    238 237 236 235 237 236 143\n 237 238 239 239 239 239 238 237 237 236 238 237
+    235 237 234 147\n 236 236 239 240 240 237 236 235 237 235 238 238 236 238 235
+    150\n 128 168 171 240 236 151 228 160 229 165 149 148 177 173 173 152\n 124 137
+    146 238 214 147 169 150 184 135 210 157 205 157 204 157\n 157 230 135 200 176
+    177 165 161 172 133 212 152 185 210 128 162\n 231 234 211 191 210 233 218 213
+    234 191 229 213 232 171 186 165\n 235 234 234 233 234 233 233 234 233 234 234
+    233 231 233 231 170\n 233 233 233 233 234 233 233 233 233 233 232 231 231 232
+    231 174\n 232 231 231 232 231 232 233 233 232 231 230 230 231 230 228 174\n 229
+    230 231 231 230 230 231 230 230 229 228 228 226 227 225 177\n 228 231 231 229
+    229 228 229 227 227 225 225 224 225 224 222 177\n 151 138 144 152 148 138 131
+    125 140 138 129 119 119 126 138 104\n 243 243 244 243 244 244 245 241 243 242
+    240 242 242 240 242 160\n 244 243 244 244 244 244 243 242 242 243 243 242 242
+    241 241 149\n 244 244 243 243 243 241 244 242 242 243 241 241 242 240 239 148\n
+    243 243 245 244 244 243 244 242 241 242 241 240 240 239 239 148\n 243 242 244
+    243 243 243 242 240 241 239 241 240 238 239 238 153\n 242 240 241 243 242 240
+    241 240 241 240 239 241 240 239 238 154\n 130 169 167 240 241 152 229 160 231
+    165 148 146 177 170 174 155\n 126 138 144 241 218 148 168 151 184 132 214 155
+    207 157 206 161\n 159 235 139 201 180 181 167 158 177 129 215 153 188 212 130
+    162\n 234 239 216 195 214 238 222 213 237 195 232 216 236 172 187 168\n 238 237
+    237 238 238 237 238 237 237 237 236 236 235 235 234 174\n 237 237 237 237 237
+    237 236 236 235 236 235 234 235 233 231 176\n 236 235 235 235 236 236 236 236
+    234 234 233 234 232 232 231 176\n 235 236 237 235 234 232 233 233 234 232 233
+    232 230 230 227 181\n 233 234 235 233 234 233 232 231 232 230 231 229 229 227
+    226 181\n 160 147 152 160 155 145 139 132 149 145 137 130 130 134 148 112\n 247
+    248 251 247 247 249 250 249 249 244 247 247 248 247 247 166\n 248 249 248 249
+    250 250 250 250 248 247 250 248 248 247 246 154\n 249 248 246 250 250 247 249
+    250 249 247 247 247 248 248 246 154\n 248 248 249 247 249 249 250 249 249 248
+    248 246 246 246 246 154\n 245 249 250 248 249 248 247 246 247 246 249 246 246
+    247 244 159\n 244 246 246 249 249 246 247 246 247 248 247 246 246 247 245 161\n
+    138 176 175 245 246 160 236 167 237 173 157 155 184 181 181 162\n 133 146 153
+    247 225 157 177 160 189 142 220 165 214 165 212 168\n 167 240 146 209 187 188
+    175 166 184 142 222 164 194 217 137 169\n 241 245 222 202 221 245 228 220 245
+    203 239 221 242 180 194 175\n 245 244 243 243 245 245 244 244 245 244 245 241
+    241 242 239 179\n 244 242 241 243 244 244 243 243 244 243 242 241 241 241 240
+    183\n 241 240 242 240 241 243 242 243 241 240 240 239 239 238 237 183\n 240 239
+    243 240 240 241 242 240 239 238 239 238 234 234 234 186\n 238 240 242 240 240
+    240 240 239 237 236 236 233 234 233 233 189\n\n 101 155 144 142 143 147 150 152
+    157 162 165 170 174 174 177 177\n 136 237 236 235 236 234 235 173 204 128 186
+    231 231 228 225 222\n 122 238 236 235 237 237 238 173 157 210 171 233 232 230
+    227 224\n 118 239 237 236 235 235 236 177 205 185 232 231 231 231 226 225\n 118
+    238 237 236 236 237 238 148 157 152 213 233 231 230 228 224\n 126 237 239 236
+    237 238 238 149 210 212 229 234 232 230 228 225\n 136 238 239 238 238 236 235
+    165 135 133 191 234 233 231 229 225\n 137 238 237 238 238 237 237 229 184 172
+    234 233 233 232 230 227\n 123 239 239 240 239 237 235 160 150 161 213 234 233
+    233 230 227\n 129 240 239 241 240 238 236 228 169 165 218 233 233 233 231 229\n
+    135 240 240 239 240 239 237 151 147 177 233 233 233 232 230 228\n 143 240 239
+    241 240 239 240 236 214 176 210 234 234 231 230 229\n 150 238 239 242 238 239
+    240 240 238 200 191 233 233 232 231 229\n 145 240 239 239 240 239 239 171 146
+    135 211 234 233 231 231 231\n 136 237 240 239 238 238 236 168 137 230 234 234
+    233 231 230 231\n 148 239 239 241 239 237 236 128 124 157 231 235 233 232 229
+    228\n 104 160 149 148 148 153 154 155 161 162 168 174 176 176 181 181\n 138 242
+    241 239 239 238 238 174 206 130 187 234 231 231 227 226\n 126 240 241 240 239
+    239 239 170 157 212 172 235 233 232 230 227\n 119 242 242 242 240 238 240 177
+    207 188 236 235 235 232 230 229\n 119 242 242 241 240 240 241 146 155 153 216
+    236 234 234 232 229\n 129 240 243 241 241 241 239 148 214 215 232 236 235 233
+    233 231\n 138 242 243 243 242 239 240 165 132 129 195 237 236 234 232 230\n 140
+    243 242 242 241 241 241 231 184 177 237 237 235 234 234 232\n 125 241 242 242
+    242 240 240 160 151 158 213 237 236 236 233 231\n 131 245 243 244 244 242 241
+    229 168 167 222 238 236 236 233 232\n 138 244 244 241 243 243 240 152 148 181
+    238 237 237 236 232 233\n 148 244 244 243 244 243 242 241 218 180 214 238 237
+    236 234 234\n 152 243 244 243 244 243 243 240 241 201 195 238 237 235 235 233\n
+    144 244 244 243 245 244 241 167 144 139 216 237 237 235 237 235\n 138 243 243
+    244 243 242 240 169 138 235 239 237 237 235 236 234\n 151 243 244 244 243 243
+    242 130 126 159 234 238 237 236 235 233\n 112 166 154 154 154 159 161 162 168
+    169 175 179 183 183 186 189\n 148 247 246 246 246 244 245 181 212 137 194 239
+    240 237 234 233\n 134 247 247 248 246 247 247 181 165 217 180 242 241 238 234
+    233\n 130 248 248 248 246 246 246 184 214 194 242 241 241 239 234 234\n 130 247
+    248 247 246 246 246 155 165 164 221 241 241 239 238 233\n 137 247 250 247 248
+    249 247 157 220 222 239 245 242 240 239 236\n 145 244 247 247 248 246 248 173
+    142 142 203 244 243 240 238 236\n 149 249 248 249 249 247 247 237 189 184 245
+    245 244 241 239 237\n 132 249 250 250 249 246 246 167 160 166 220 244 243 243
+    240 239\n 139 250 250 249 250 247 247 236 177 175 228 244 243 242 242 240\n 145
+    249 250 247 249 248 246 160 157 188 245 245 244 243 241 240\n 155 247 250 250
+    249 249 249 246 225 187 221 245 244 241 240 240\n 160 247 249 250 247 248 249
+    245 247 209 202 243 243 240 240 240\n 152 251 248 246 249 250 246 175 153 146
+    222 243 241 242 243 242\n 147 248 249 248 248 249 246 176 146 240 245 244 242
+    240 239 240\n 160 247 248 249 248 245 244 138 133 167 241 245 244 241 240 238\n\n
+    177 222 224 225 224 225 225 227 227 229 228 229 229 231 231 228\n 177 225 227
+    226 228 228 229 230 230 231 230 230 231 231 230 229\n 174 228 230 231 230 230
+    231 232 233 233 232 231 232 231 231 232\n 174 231 232 231 231 232 233 233 233
+    233 233 234 233 233 233 233\n 170 231 233 231 233 234 234 233 234 233 233 234
+    233 234 234 235\n 165 186 171 232 213 229 191 234 213 218 233 210 191 211 234
+    231\n 162 128 210 185 152 212 133 172 161 165 177 176 200 135 230 157\n 157 204
+    157 205 157 210 135 184 150 169 147 214 238 146 137 124\n 152 173 173 177 148
+    149 165 229 160 228 151 236 240 171 168 128\n 150 235 238 236 238 238 235 237
+    235 236 237 240 240 239 236 236\n 147 234 237 235 237 238 236 237 237 238 239
+    239 239 239 238 237\n 143 236 237 235 236 237 238 238 239 240 240 240 238 240
+    238 239\n 142 235 235 236 236 236 238 238 240 241 239 241 242 239 239 241\n 144
+    236 236 237 237 239 239 237 239 239 240 239 239 239 240 239\n 155 237 238 239
+    238 237 238 238 239 240 240 240 238 240 237 239\n 101 136 122 118 118 126 136
+    137 123 129 135 143 150 145 136 148\n 181 226 227 229 229 231 230 232 231 232
+    233 234 233 235 234 233\n 181 227 230 230 232 233 232 234 233 233 232 234 235
+    237 236 235\n 176 231 232 232 234 233 234 234 236 236 236 236 235 235 235 236\n
+    176 231 233 235 234 235 236 235 236 236 237 237 237 237 237 237\n 174 234 235
+    235 236 236 237 237 237 238 237 238 238 237 237 238\n 168 187 172 236 216 232
+    195 237 213 222 238 214 195 216 239 234\n 162 130 212 188 153 215 129 177 158
+    167 181 180 201 139 235 159\n 161 206 157 207 155 214 132 184 151 168 148 218
+    241 144 138 126\n 155 174 170 177 146 148 165 231 160 229 152 241 240 167 169
+    130\n 154 238 239 240 241 239 240 241 240 241 240 242 243 241 240 242\n 153 238
+    239 238 240 241 239 241 240 242 243 243 243 244 242 243\n 148 239 239 240 240
+    241 242 241 242 244 243 244 244 245 243 243\n 148 239 240 242 241 241 243 242
+    242 244 241 243 243 243 244 244\n 149 241 241 242 242 243 243 242 242 243 244
+    244 244 244 243 244\n 160 242 240 242 242 240 242 243 241 245 244 244 243 244
+    243 243\n 104 138 126 119 119 129 138 140 125 131 138 148 152 144 138 151\n 189
+    233 233 234 233 236 236 237 239 240 240 240 240 242 240 238\n 186 234 234 234
+    238 239 238 239 240 242 241 240 240 243 239 240\n 183 237 238 239 239 240 240
+    241 243 242 243 241 240 242 240 241\n 183 240 241 241 241 242 243 244 243 243
+    244 244 243 241 242 244\n 179 239 242 241 241 245 244 245 244 244 245 245 243
+    243 244 245\n 175 194 180 242 221 239 203 245 220 228 245 221 202 222 245 241\n
+    169 137 217 194 164 222 142 184 166 175 188 187 209 146 240 167\n 168 212 165
+    214 165 220 142 189 160 177 157 225 247 153 146 133\n 162 181 181 184 155 157
+    173 237 167 236 160 246 245 175 176 138\n 161 245 247 246 246 247 248 247 246
+    247 246 249 249 246 246 244\n 159 244 247 246 246 249 246 247 246 247 248 249
+    248 250 249 245\n 154 246 246 246 246 248 248 249 249 250 249 249 247 249 248
+    248\n 154 246 248 248 247 247 247 249 250 249 247 250 250 246 248 249\n 154 246
+    247 248 248 250 247 248 250 250 250 250 249 248 249 248\n 166 247 247 248 247
+    247 244 249 249 250 249 247 247 251 248 247\n 112 148 134 130 130 137 145 149
+    132 139 145 155 160 152 147 160\n\n 228 229 232 233 235 231 157 124 128 236 237
+    239 241 239 239 148\n 231 230 231 233 234 234 230 137 168 236 238 238 239 240
+    237 136\n 231 231 231 233 234 211 135 146 171 239 239 240 239 239 240 145\n 229
+    231 232 233 233 191 200 238 240 240 239 238 242 239 238 150\n 229 230 231 234
+    234 210 176 214 236 240 239 240 241 239 240 143\n 228 230 232 233 233 233 177
+    147 151 237 239 240 239 240 240 135\n 229 231 233 233 233 218 165 169 228 236
+    238 240 241 239 240 129\n 227 230 233 233 234 213 161 150 160 235 237 239 240
+    239 239 123\n 227 230 232 233 233 234 172 184 229 237 237 238 238 237 238 137\n
+    225 229 231 233 234 191 133 135 165 235 236 238 238 239 238 136\n 225 228 230
+    232 234 229 212 210 149 238 238 237 236 239 237 126\n 224 228 230 231 233 213
+    152 157 148 238 237 236 236 237 238 118\n 225 226 231 231 231 232 185 205 177
+    236 235 235 236 237 239 118\n 224 227 230 232 233 171 210 157 173 238 237 237
+    235 236 238 122\n 222 225 228 231 231 186 128 204 173 235 234 236 235 236 237
+    136\n 177 177 174 174 170 165 162 157 152 150 147 143 142 144 155 101\n 233 235
+    236 237 238 234 159 126 130 242 243 243 244 244 243 151\n 234 236 235 237 237
+    239 235 138 169 240 242 243 244 243 243 138\n 235 237 235 237 237 216 139 144
+    167 241 244 245 243 244 244 144\n 233 235 235 237 238 195 201 241 240 243 243
+    244 243 244 243 152\n 234 234 236 237 238 214 180 218 241 242 243 244 243 244
+    244 148\n 233 232 236 237 237 238 181 148 152 240 243 243 241 244 244 138\n 232
+    233 236 236 238 222 167 168 229 241 242 244 244 243 245 131\n 231 233 236 236
+    237 213 158 151 160 240 240 242 242 242 241 125\n 232 234 234 235 237 237 177
+    184 231 241 241 241 242 242 243 140\n 230 232 234 236 237 195 129 132 165 240
+    239 242 243 243 242 138\n 231 233 233 235 236 232 215 214 148 239 241 241 241
+    243 240 129\n 229 232 234 234 236 216 153 155 146 241 240 240 241 242 242 119\n
+    229 230 232 235 235 236 188 207 177 240 238 240 242 242 242 119\n 227 230 232
+    233 235 172 212 157 170 239 239 239 240 241 240 126\n 226 227 231 231 234 187
+    130 206 174 238 238 239 239 241 242 138\n 181 181 176 176 174 168 162 161 155
+    154 153 148 148 149 160 104\n 238 240 241 244 245 241 167 133 138 244 245 248
+    249 248 247 160\n 240 239 240 242 244 245 240 146 176 246 249 248 248 249 248
+    147\n 242 243 242 241 243 222 146 153 175 246 250 249 246 248 251 152\n 240 240
+    240 243 243 202 209 247 245 249 248 247 250 249 247 160\n 240 240 241 244 245
+    221 187 225 246 249 249 249 250 250 247 155\n 240 241 243 244 245 245 188 157
+    160 246 248 249 247 250 249 145\n 240 242 242 243 244 228 175 177 236 247 247
+    250 249 250 250 139\n 239 240 243 243 244 220 166 160 167 246 246 249 250 250
+    249 132\n 237 239 241 244 245 245 184 189 237 247 247 249 249 248 249 149\n 236
+    238 240 243 244 203 142 142 173 248 246 248 247 247 244 145\n 236 239 240 242
+    245 239 222 220 157 247 249 248 247 250 247 137\n 233 238 239 241 241 221 164
+    165 155 246 246 246 247 248 247 130\n 234 234 239 241 241 242 194 214 184 246
+    246 246 248 248 248 130\n 233 234 238 241 242 180 217 165 181 247 247 246 248
+    247 247 134\n 233 234 237 240 239 194 137 212 181 245 244 246 246 246 247 148\n
+    189 186 183 183 179 175 169 168 162 161 159 154 154 154 166 112\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1192976675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: cow
+  PatternFilenameIndex: 1
+  PatternFilename: patt.cows
+  PatternContents: "  89 154 150 151 151 152 152 153 151 149 146 148 149 147 151 151\n
+    \ 89 155 151 155 154 152 151 152 151 151 150 151 148 150 150 147\n  90 155 151
+    151 151 150 150 149 148 150 152 153 154 155 149 150\n  89 155 153 152 151 149
+    147 148 149 149 150 154 150 149 150 149\n  88 154 153 137 149 149 148 151 151
+    149 151 154 151 149 146 147\n  90 130  85  90 105 149 149 150 150 150 153 154
+    149 151 150 151\n  88  90 132 147 118 130  90 109 126 122 120 125 117 123  84
+    124\n  87  87 143 149 149  94 125  97 106  92  85  92  82  97 113 118\n  93  94
+    127 140  88  90 128  98 119  70  79  77  88 134 106  84\n  92 138  93  88 119
+    129 111 119 149 114 113 111 124 120  84  93\n  78 148 149 147 150 150 149 151
+    150 150 148 149 151 151 147 145\n  77 146 147 149 151 150 149 150 152 149 148
+    148 147 150 152 148\n  86 147 146 145 148 150 150 148 150 148 148 149 148 149
+    142 146\n  96 147 148 147 146 147 147 146 149 148 147 145 149 146 145 148\n 104
+    146 146 148 148 144 144 142 143 143 144 145 146 144 145 148\n  78 110 114 123
+    119 109 111 102 108 108 112 117 118 119 120 124\n  84 154 156 154 154 153 152
+    153 152 152 152 152 152 153 151 152\n  87 154 154 153 152 152 152 153 151 151
+    151 152 153 153 151 152\n  83 151 153 154 152 152 153 151 151 151 151 151 153
+    154 153 152\n  84 150 151 151 152 151 151 151 151 152 152 153 153 153 153 153\n
+    \ 86 150 149 135 148 150 150 151 151 151 150 152 151 152 152 152\n  86 124  81
+    \ 91 104 148 150 151 151 150 150 151 151 152 151 150\n  83  88 130 148 119 129
+    \ 90 105 121 117 118 117 115 124  80 122\n  82  86 142 151 152  94 124 100 102
+    \ 89  82  85  77  98 111 116\n  87  92 123 139  87  89 126  98 117  69  70  72
+    \ 86 133 104  80\n  89 139  92  85 120 133 112 117 149 113 107 111 124 116  82
+    \ 98\n  75 148 148 149 150 150 152 153 150 151 152 151 150 149 146 148\n  77 145
+    145 148 150 150 151 151 150 151 150 150 149 148 148 148\n  87 146 145 144 146
+    148 149 149 149 149 149 148 149 148 148 147\n  90 147 146 146 144 145 147 149
+    148 147 145 146 145 146 145 145\n  98 147 146 146 144 143 145 148 146 145 144
+    142 143 145 144 143\n  73 106 110 113 110 103 104  96 100 104 106 110 115 116
+    115 116\n  92 158 158 160 159 160 158 159 157 157 156 157 158 159 158 157\n  91
+    158 158 161 159 158 158 159 157 158 157 158 158 161 162 158\n  93 160 158 157
+    157 156 158 158 157 157 158 159 158 159 159 160\n  92 159 158 156 157 157 158
+    158 157 158 158 158 159 159 159 158\n  92 158 157 141 156 157 157 156 156 156
+    160 159 158 159 158 158\n  92 133  91  96 112 155 156 154 155 156 155 159 158
+    158 158 157\n  92  94 138 155 127 138  96 110 128 124 124 128 124 130  88 131\n
+    \ 91  93 152 159 155  98 130 105 110  97  87  93  86 105 120 126\n  96  98 130
+    147  93  94 132 105 125  79  82  84  96 143 114  90\n  96 144 100  96 129 138
+    119 126 157 121 121 121 133 127  93 106\n  83 154 156 157 158 158 159 160 157
+    157 159 158 157 159 156 156\n  83 151 154 157 158 157 157 159 157 158 158 157
+    157 157 156 155\n  94 154 154 154 155 156 157 158 156 158 160 157 158 157 156
+    156\n 100 156 154 154 154 155 157 155 157 156 157 157 155 155 156 153\n 108 156
+    155 154 154 154 153 152 152 153 153 153 154 154 154 153\n  81 111 115 122 119
+    112 114 106 108 112 117 120 123 123 123 128\n\n 151 147 150 149 147 151 124 118
+    \ 84  93 145 148 146 148 148 124\n 151 150 149 150 146 150  84 113 106  84 147
+    152 142 145 145 120\n 147 150 155 149 149 151 123  97 134 120 151 150 149 146
+    144 119\n 149 148 154 150 151 149 117  82  88 124 151 147 148 149 146 118\n 148
+    151 153 154 154 154 125  92  77 111 149 148 149 145 145 117\n 146 150 152 150
+    151 153 120  85  79 113 148 148 148 147 144 112\n 149 151 150 149 149 150 122
+    \ 92  70 114 150 149 148 148 143 108\n 151 151 148 149 151 150 126 106 119 149
+    150 152 150 149 143 108\n 153 152 149 148 151 150 109  97  98 119 151 150 148
+    146 142 102\n 152 151 150 147 148 149  90 125 128 111 149 149 150 147 144 111\n
+    152 152 150 149 149 149 130  94  90 129 150 150 150 147 144 109\n 151 154 151
+    151 149 105 118 149  88 119 150 151 148 146 148 119\n 151 155 151 152 137  90
+    147 149 140  88 147 149 145 147 148 123\n 150 151 151 153 153  85 132 143 127
+    \ 93 149 147 146 148 146 114\n 154 155 155 155 154 130  90  87  94 138 148 146
+    147 147 146 110\n  89  89  90  89  88  90  88  87  93  92  78  77  86  96 104
+    \ 78\n 152 152 152 153 152 150 122 116  80  98 148 148 147 145 143 116\n 151 151
+    153 153 152 151  80 111 104  82 146 148 148 145 144 115\n 153 153 154 153 152
+    152 124  98 133 116 149 148 148 146 145 116\n 152 153 153 153 151 151 115  77
+    \ 86 124 150 149 149 145 143 115\n 152 152 151 153 152 151 117  85  72 111 151
+    150 148 146 142 110\n 152 151 151 152 150 150 118  82  70 107 152 150 149 145
+    144 106\n 152 151 151 152 151 150 117  89  69 113 151 151 149 147 145 104\n 152
+    151 151 151 151 151 121 102 117 149 150 150 149 148 146 100\n 153 153 151 151
+    151 151 105 100  98 117 153 151 149 149 148  96\n 152 152 153 151 150 150  90
+    124 126 112 152 151 149 147 145 104\n 153 152 152 151 150 148 129  94  89 133
+    150 150 148 145 143 103\n 154 152 152 152 148 104 119 152  87 120 150 150 146
+    144 144 110\n 154 153 154 151 135  91 148 151 139  85 149 148 144 146 146 113\n
+    156 154 153 151 149  81 130 142 123  92 148 145 145 146 146 110\n 154 154 151
+    150 150 124  88  86  92 139 148 145 146 147 147 106\n  84  87  83  84  86  86
+    \ 83  82  87  89  75  77  87  90  98  73\n 157 158 160 158 158 157 131 126  90
+    106 156 155 156 153 153 128\n 158 162 159 159 158 158  88 120 114  93 156 156
+    156 156 154 123\n 159 161 159 159 159 158 130 105 143 127 159 157 157 155 154
+    123\n 158 158 158 159 158 158 124  86  96 133 157 157 158 155 154 123\n 157 158
+    159 158 159 159 128  93  84 121 158 157 157 157 153 120\n 156 157 158 158 160
+    155 124  87  82 121 159 158 160 157 153 117\n 157 158 157 158 156 156 124  97
+    \ 79 121 157 158 158 156 153 112\n 157 157 157 157 156 155 128 110 125 157 157
+    157 156 157 152 108\n 159 159 158 158 156 154 110 105 105 126 160 159 158 155
+    152 106\n 158 158 158 158 157 156  96 130 132 119 159 157 157 157 153 114\n 160
+    158 156 157 157 155 138  98  94 138 158 157 156 155 154 112\n 159 159 157 157
+    156 112 127 155  93 129 158 158 155 154 154 119\n 160 161 157 156 141  96 155
+    159 147  96 157 157 154 154 154 122\n 158 158 158 158 157  91 138 152 130 100
+    156 154 154 154 155 115\n 158 158 160 159 158 133  94  93  98 144 154 151 154
+    156 156 111\n  92  91  93  92  92  92  92  91  96  96  83  83  94 100 108  81\n\n
+    124 120 119 118 117 112 108 108 102 111 109 119 123 114 110  78\n 148 145 144
+    146 145 144 143 143 142 144 144 148 148 146 146 104\n 148 145 146 149 145 147
+    148 149 146 147 147 146 147 148 147  96\n 146 142 149 148 149 148 148 150 148
+    150 150 148 145 146 147  86\n 148 152 150 147 148 148 149 152 150 149 150 151
+    149 147 146  77\n 145 147 151 151 149 148 150 150 151 149 150 150 147 149 148
+    \ 78\n  93  84 120 124 111 113 114 149 119 111 129 119  88  93 138  92\n  84 106
+    134  88  77  79  70 119  98 128  90  88 140 127  94  93\n 118 113  97  82  92
+    \ 85  92 106  97 125  94 149 149 143  87  87\n 124  84 123 117 125 120 122 126
+    109  90 130 118 147 132  90  88\n 151 150 151 149 154 153 150 150 150 149 149
+    105  90  85 130  90\n 147 146 149 151 154 151 149 151 151 148 149 149 137 153
+    154  88\n 149 150 149 150 154 150 149 149 148 147 149 151 152 153 155  89\n 150
+    149 155 154 153 152 150 148 149 150 150 151 151 151 155  90\n 147 150 150 148
+    151 150 151 151 152 151 152 154 155 151 155  89\n 151 151 147 149 148 146 149
+    151 153 152 152 151 151 150 154  89\n 116 115 116 115 110 106 104 100  96 104
+    103 110 113 110 106  73\n 143 144 145 143 142 144 145 146 148 145 143 144 146
+    146 147  98\n 145 145 146 145 146 145 147 148 149 147 145 144 146 146 147  90\n
+    147 148 148 149 148 149 149 149 149 149 148 146 144 145 146  87\n 148 148 148
+    149 150 150 151 150 151 151 150 150 148 145 145  77\n 148 146 149 150 151 152
+    151 150 153 152 150 150 149 148 148  75\n  98  82 116 124 111 107 113 149 117
+    112 133 120  85  92 139  89\n  80 104 133  86  72  70  69 117  98 126  89  87
+    139 123  92  87\n 116 111  98  77  85  82  89 102 100 124  94 152 151 142  86
+    \ 82\n 122  80 124 115 117 118 117 121 105  90 129 119 148 130  88  83\n 150 151
+    152 151 151 150 150 151 151 150 148 104  91  81 124  86\n 152 152 152 151 152
+    150 151 151 151 150 150 148 135 149 150  86\n 153 153 153 153 153 152 152 151
+    151 151 151 152 151 151 150  84\n 152 153 154 153 151 151 151 151 151 153 152
+    152 154 153 151  83\n 152 151 153 153 152 151 151 151 153 152 152 152 153 154
+    154  87\n 152 151 153 152 152 152 152 152 153 152 153 154 154 156 154  84\n 128
+    123 123 123 120 117 112 108 106 114 112 119 122 115 111  81\n 153 154 154 154
+    153 153 153 152 152 153 154 154 154 155 156 108\n 153 156 155 155 157 157 156
+    157 155 157 155 154 154 154 156 100\n 156 156 157 158 157 160 158 156 158 157
+    156 155 154 154 154  94\n 155 156 157 157 157 158 158 157 159 157 157 158 157
+    154 151  83\n 156 156 159 157 158 159 157 157 160 159 158 158 157 156 154  83\n
+    106  93 127 133 121 121 121 157 126 119 138 129  96 100 144  96\n  90 114 143
+    \ 96  84  82  79 125 105 132  94  93 147 130  98  96\n 126 120 105  86  93  87
+    \ 97 110 105 130  98 155 159 152  93  91\n 131  88 130 124 128 124 124 128 110
+    \ 96 138 127 155 138  94  92\n 157 158 158 158 159 155 156 155 154 156 155 112
+    \ 96  91 133  92\n 158 158 159 158 159 160 156 156 156 157 157 156 141 157 158
+    \ 92\n 158 159 159 159 158 158 158 157 158 158 157 157 156 158 159  92\n 160 159
+    159 158 159 158 157 157 158 158 156 157 157 158 160  93\n 158 162 161 158 158
+    157 158 157 159 158 158 159 161 158 158  91\n 157 158 159 158 157 156 157 157
+    159 158 160 159 160 158 158  92\n\n  78 104  96  86  77  78  92  93  87  88  90
+    \ 88  89  90  89  89\n 110 146 147 147 146 148 138  94  87  90 130 154 155 155
+    155 154\n 114 146 148 146 147 149  93 127 143 132  85 153 153 151 151 150\n 123
+    148 147 145 149 147  88 140 149 147  90 137 152 151 155 151\n 119 148 146 148
+    151 150 119  88 149 118 105 149 151 151 154 151\n 109 144 147 150 150 150 129
+    \ 90  94 130 149 149 149 150 152 152\n 111 144 147 150 149 149 111 128 125  90
+    149 148 147 150 151 152\n 102 142 146 148 150 151 119  98  97 109 150 151 148
+    149 152 153\n 108 143 149 150 152 150 149 119 106 126 150 151 149 148 151 151\n
+    108 143 148 148 149 150 114  70  92 122 150 149 149 150 151 149\n 112 144 147
+    148 148 148 113  79  85 120 153 151 150 152 150 146\n 117 145 145 149 148 149
+    111  77  92 125 154 154 154 153 151 148\n 118 146 149 148 147 151 124  88  82
+    117 149 151 150 154 148 149\n 119 144 146 149 150 151 120 134  97 123 151 149
+    149 155 150 147\n 120 145 145 142 152 147  84 106 113  84 150 146 150 149 150
+    151\n 124 148 148 146 148 145  93  84 118 124 151 147 149 150 147 151\n  73  98
+    \ 90  87  77  75  89  87  82  83  86  86  84  83  87  84\n 106 147 147 146 145
+    148 139  92  86  88 124 150 150 151 154 154\n 110 146 146 145 145 148  92 123
+    142 130  81 149 151 153 154 156\n 113 146 146 144 148 149  85 139 151 148  91
+    135 151 154 153 154\n 110 144 144 146 150 150 120  87 152 119 104 148 152 152
+    152 154\n 103 143 145 148 150 150 133  89  94 129 148 150 151 152 152 153\n 104
+    145 147 149 151 152 112 126 124  90 150 150 151 153 152 152\n  96 148 149 149
+    151 153 117  98 100 105 151 151 151 151 153 153\n 100 146 148 149 150 150 149
+    117 102 121 151 151 151 151 151 152\n 104 145 147 149 151 151 113  69  89 117
+    150 151 152 151 151 152\n 106 144 145 149 150 152 107  70  82 118 150 150 152
+    151 151 152\n 110 142 146 148 150 151 111  72  85 117 151 152 153 151 152 152\n
+    115 143 145 149 149 150 124  86  77 115 151 151 153 153 153 152\n 116 145 146
+    148 148 149 116 133  98 124 152 152 153 154 153 153\n 115 144 145 148 148 146
+    \ 82 104 111  80 151 152 153 153 151 151\n 116 143 145 147 148 148  98  80 116
+    122 150 152 153 152 152 152\n  81 108 100  94  83  83  96  96  91  92  92  92
+    \ 92  93  91  92\n 111 156 156 154 151 154 144  98  93  94 133 158 159 160 158
+    158\n 115 155 154 154 154 156 100 130 152 138  91 157 158 158 158 158\n 122 154
+    154 154 157 157  96 147 159 155  96 141 156 157 161 160\n 119 154 154 155 158
+    158 129  93 155 127 112 156 157 157 159 159\n 112 154 155 156 157 158 138  94
+    \ 98 138 155 157 157 156 158 160\n 114 153 157 157 157 159 119 132 130  96 156
+    157 158 158 158 158\n 106 152 155 158 159 160 126 105 105 110 154 156 158 158
+    159 159\n 108 152 157 156 157 157 157 125 110 128 155 156 157 157 157 157\n 112
+    153 156 158 158 157 121  79  97 124 156 156 158 157 158 157\n 117 153 157 160
+    158 159 121  82  87 124 155 160 158 158 157 156\n 120 153 157 157 157 158 121
+    \ 84  93 128 159 159 158 159 158 157\n 123 154 155 158 157 157 133  96  86 124
+    158 158 159 158 158 158\n 123 154 155 157 157 159 127 143 105 130 158 159 159
+    159 161 159\n 123 154 156 156 156 156  93 114 120  88 158 158 159 159 162 158\n
+    128 153 153 156 155 156 106  90 126 131 157 158 158 160 158 157\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1192976676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: birds
+  PatternFilenameIndex: 0
+  PatternFilename: patt.birds
+  PatternContents: " 131 158 155 156 155 162 161 160 155 159 161 162 155 155 165 163\n
+    136 156 154 158 162 163 161 161 161 160 159 159 159 162 162 161\n 140 157 157
+    156 158 160 160 159 161 160 160 160 161 160 160 162\n 146 156 156 158 159 158
+    158 159 157 159 162 159 160 161 162 161\n 149 154 156 159 159 158 159 157 157
+    158 158 158 159 159 161 161\n 146 158 156 157 154 156 158 160 157 151 154 156
+    157 157 162 160\n 135  77 119 109 106 102 117 103 131 110 114 119 116 114  95
+    157\n 132  71 118 111 103  99 131 108 108 115 160  79 106 101 138 159\n 133 102
+    160  75  84 101 116  96 112 112 158  96 133 141  96 156\n 142  93  98 109  97
+    109 148 129 105  92  95 127 122 125 111 150\n 152 156 156 156 158 158 160 158
+    160 161 160 158 160 155 157 157\n 156 157 158 157 159 158 155 158 161 161 159
+    159 160 159 159 162\n 152 154 155 157 160 157 158 163 158 157 160 159 159 159
+    159 161\n 143 154 153 155 158 158 156 159 161 157 158 157 158 159 160 158\n 150
+    154 154 155 159 156 158 158 159 156 157 157 160 158 158 159\n 154 158 154 145
+    148 150 153 154 155 156 158 157 159 159 163 159\n 133 162 162 157 158 163 162
+    160 156 162 162 163 159 159 167 163\n 136 160 160 161 163 162 161 163 164 164
+    163 166 164 164 165 164\n 141 159 160 160 160 162 162 163 163 163 162 162 163
+    163 163 162\n 144 158 159 161 160 160 160 161 161 161 160 161 162 162 164 163\n
+    147 157 159 158 159 159 159 160 161 160 160 161 161 163 163 163\n 145 157 156
+    157 155 156 157 160 160 150 155 161 162 161 161 161\n 132  77 120 110 105  99
+    114 105 130 101 110 116 117 113  91 158\n 130  73 117 107  99  96 133 111 107
+    113 159  80 106 101 134 159\n 131 102 155  72  81  96 115  97 109 110 158  97
+    131 141  94 154\n 141  91  96 108  95 107 146 127 100  88  95 130 119 120 109
+    151\n 148 156 157 159 158 159 157 158 159 160 161 161 159 152 155 161\n 149 155
+    156 157 158 158 158 158 160 159 160 159 160 160 159 161\n 151 154 156 156 157
+    159 157 159 158 159 158 159 160 159 159 159\n 139 155 154 156 156 156 157 157
+    157 158 159 159 159 160 159 160\n 144 153 154 154 154 155 156 157 156 157 157
+    156 157 157 159 159\n 149 152 150 143 144 148 150 151 152 153 154 154 155 156
+    157 158\n 138 166 164 162 161 166 164 164 161 164 165 164 161 162 169 164\n 141
+    164 164 164 165 165 166 166 168 168 165 166 166 169 167 164\n 145 163 163 163
+    165 163 165 165 166 166 165 163 165 166 164 163\n 150 162 163 164 163 163 163
+    165 163 164 162 163 165 165 165 164\n 153 160 160 161 162 163 161 161 164 164
+    162 162 162 163 165 165\n 148 160 158 159 157 160 159 160 162 152 156 161 160
+    162 163 163\n 137  80 122 112 108 102 114 106 133 105 111 120 116 116  94 160\n
+    134  77 121 113 104 100 135 110 110 117 160  84 108 102 137 160\n 137 108 159
+    \ 75  87 103 118  97 114 117 159  98 135 143  97 157\n 144  96 101 110  98 113
+    148 129 104  93  97 132 122 123 111 153\n 154 159 160 161 159 161 159 160 160
+    160 161 160 160 154 156 160\n 155 159 160 161 162 161 160 160 161 160 161 161
+    160 161 160 161\n 156 158 158 160 160 159 161 162 161 162 161 160 160 161 162
+    161\n 145 156 158 158 159 160 159 159 160 159 160 159 160 160 160 161\n 150 156
+    157 155 158 158 158 158 159 157 159 158 160 159 159 159\n 154 156 154 146 148
+    150 151 154 155 155 156 156 157 157 158 158\n\n 163 161 162 161 161 160 157 159
+    156 150 157 162 161 158 159 159\n 165 162 160 162 161 162  95 138  96 111 157
+    159 159 160 158 163\n 155 162 160 161 159 157 114 101 141 125 155 159 159 159
+    158 159\n 155 159 161 160 159 157 116 106 133 122 160 160 159 158 160 159\n 162
+    159 160 159 158 156 119  79  96 127 158 159 159 157 157 157\n 161 159 160 162
+    158 154 114 160 158  95 160 159 160 158 157 158\n 159 160 160 159 158 151 110
+    115 112  92 161 161 157 157 156 156\n 155 161 161 157 157 157 131 108 112 105
+    160 161 158 161 159 155\n 160 161 159 159 157 160 103 108  96 129 158 158 163
+    159 158 154\n 161 161 160 158 159 158 117 131 116 148 160 155 158 156 158 153\n
+    162 163 160 158 158 156 102  99 101 109 158 158 157 158 156 150\n 155 162 158
+    159 159 154 106 103  84  97 158 159 160 158 159 148\n 156 158 156 158 159 157
+    109 111  75 109 156 157 157 155 155 145\n 155 154 157 156 156 156 119 118 160
+    \ 98 156 158 155 153 154 154\n 158 156 157 156 154 158  77  71 102  93 156 157
+    154 154 154 158\n 131 136 140 146 149 146 135 132 133 142 152 156 152 143 150
+    154\n 163 164 162 163 163 161 158 159 154 151 161 161 159 160 159 158\n 167 165
+    163 164 163 161  91 134  94 109 155 159 159 159 159 157\n 159 164 163 162 163
+    161 113 101 141 120 152 160 159 160 157 156\n 159 164 163 162 161 162 117 106
+    131 119 159 160 160 159 157 155\n 163 166 162 161 161 161 116  80  97 130 161
+    159 159 159 156 154\n 162 163 162 160 160 155 110 159 158  95 161 160 158 159
+    157 154\n 162 164 163 161 160 150 101 113 110  88 160 159 159 158 157 153\n 156
+    164 163 161 161 160 130 107 109 100 159 160 158 157 156 152\n 160 163 163 161
+    160 160 105 111  97 127 158 158 159 157 157 151\n 162 161 162 160 159 157 114
+    133 115 146 157 158 157 157 156 150\n 163 162 162 160 159 156  99  96  96 107
+    159 158 159 156 155 148\n 158 163 160 160 159 155 105  99  81  95 158 158 157
+    156 154 144\n 157 161 160 161 158 157 110 107  72 108 159 157 156 156 154 143\n
+    162 160 160 159 159 156 120 117 155  96 157 156 156 154 154 150\n 162 160 159
+    158 157 157  77  73 102  91 156 155 154 155 153 152\n 133 136 141 144 147 145
+    132 130 131 141 148 149 151 139 144 149\n 164 164 163 164 165 163 160 160 157
+    153 160 161 161 161 159 158\n 169 167 164 165 165 163  94 137  97 111 156 160
+    162 160 159 158\n 162 169 166 165 163 162 116 102 143 123 154 161 161 160 159
+    157\n 161 166 165 165 162 160 116 108 135 122 160 160 160 160 160 157\n 164 166
+    163 163 162 161 120  84  98 132 160 161 160 159 158 156\n 165 165 165 162 162
+    156 111 160 159  97 161 161 161 160 159 156\n 164 168 166 164 164 152 105 117
+    117  93 160 160 162 159 157 155\n 161 168 166 163 164 162 133 110 114 104 160
+    161 161 160 159 155\n 164 166 165 165 161 160 106 110  97 129 160 160 162 159
+    158 154\n 164 166 165 163 161 159 114 135 118 148 159 160 161 159 158 151\n 166
+    165 163 163 163 160 102 100 103 113 161 161 159 160 158 150\n 161 165 165 163
+    162 157 108 104  87  98 159 162 160 159 158 148\n 162 164 163 164 161 159 112
+    113  75 110 161 161 160 158 155 146\n 164 164 163 163 160 158 122 121 159 101
+    160 160 158 158 157 154\n 166 164 163 162 160 160  80  77 108  96 159 159 158
+    156 156 156\n 138 141 145 150 153 148 137 134 137 144 154 155 156 145 150 154\n\n
+    159 163 159 159 157 158 156 155 154 153 150 148 145 154 158 154\n 159 158 158
+    160 157 157 156 159 158 158 156 159 155 154 154 150\n 158 160 159 158 157 158
+    157 161 159 156 158 158 155 153 154 143\n 161 159 159 159 159 160 157 158 163
+    158 157 160 157 155 154 152\n 162 159 159 160 159 159 161 161 158 155 158 159
+    157 158 157 156\n 157 157 155 160 158 160 161 160 158 160 158 158 156 156 156
+    152\n 150 111 125 122 127  95  92 105 129 148 109  97 109  98  93 142\n 156  96
+    141 133  96 158 112 112  96 116 101  84  75 160 102 133\n 159 138 101 106  79
+    160 115 108 108 131  99 103 111 118  71 132\n 157  95 114 116 119 114 110 131
+    103 117 102 106 109 119  77 135\n 160 162 157 157 156 154 151 157 160 158 156
+    154 157 156 158 146\n 161 161 159 159 158 158 158 157 157 159 158 159 159 156
+    154 149\n 161 162 161 160 159 162 159 157 159 158 158 159 158 156 156 146\n 162
+    160 160 161 160 160 160 161 159 160 160 158 156 157 157 140\n 161 162 162 159
+    159 159 160 161 161 161 163 162 158 154 156 136\n 163 165 155 155 162 161 159
+    155 160 161 162 155 156 155 158 131\n 158 157 156 155 154 154 153 152 151 150
+    148 144 143 150 152 149\n 159 159 157 157 156 157 157 156 157 156 155 154 154
+    154 153 144\n 160 159 160 159 159 159 158 157 157 157 156 156 156 154 155 139\n
+    159 159 159 160 159 158 159 158 159 157 159 157 156 156 154 151\n 161 159 160
+    160 159 160 159 160 158 158 158 158 157 156 155 149\n 161 155 152 159 161 161
+    160 159 158 157 159 158 159 157 156 148\n 151 109 120 119 130  95  88 100 127
+    146 107  95 108  96  91 141\n 154  94 141 131  97 158 110 109  97 115  96  81
+    \ 72 155 102 131\n 159 134 101 106  80 159 113 107 111 133  96  99 107 117  73
+    130\n 158  91 113 117 116 110 101 130 105 114  99 105 110 120  77 132\n 161 161
+    161 162 161 155 150 160 160 157 156 155 157 156 157 145\n 163 163 163 161 161
+    160 160 161 160 159 159 159 158 159 157 147\n 163 164 162 162 161 160 161 161
+    161 160 160 160 161 159 158 144\n 162 163 163 163 162 162 163 163 163 162 162
+    160 160 160 159 141\n 164 165 164 164 166 163 164 164 163 161 162 163 161 160
+    160 136\n 163 167 159 159 163 162 162 156 160 162 163 158 157 162 162 133\n 158
+    158 157 157 156 156 155 155 154 151 150 148 146 154 156 154\n 159 159 159 160
+    158 159 157 159 158 158 158 158 155 157 156 150\n 161 160 160 160 159 160 159
+    160 159 159 160 159 158 158 156 145\n 161 162 161 160 160 161 162 161 162 161
+    159 160 160 158 158 156\n 161 160 161 160 161 161 160 161 160 160 161 162 161
+    160 159 155\n 160 156 154 160 160 161 160 160 160 159 161 159 161 160 159 154\n
+    153 111 123 122 132  97  93 104 129 148 113  98 110 101  96 144\n 157  97 143
+    135  98 159 117 114  97 118 103  87  75 159 108 137\n 160 137 102 108  84 160
+    117 110 110 135 100 104 113 121  77 134\n 160  94 116 116 120 111 105 133 106
+    114 102 108 112 122  80 137\n 163 163 162 160 161 156 152 162 160 159 160 157
+    159 158 160 148\n 165 165 163 162 162 162 164 164 161 161 163 162 161 160 160
+    153\n 164 165 165 165 163 162 164 163 165 163 163 163 164 163 162 150\n 163 164
+    166 165 163 165 166 166 165 165 163 165 163 163 163 145\n 164 167 169 166 166
+    165 168 168 166 166 165 165 164 164 164 141\n 164 169 162 161 164 165 164 161
+    164 164 166 161 162 164 166 138\n\n 154 150 143 152 156 152 142 133 132 135 146
+    149 146 140 136 131\n 158 154 154 154 157 156  93 102  71  77 158 154 156 157
+    156 158\n 154 154 153 155 158 156  98 160 118 119 156 156 156 157 154 155\n 145
+    155 155 157 157 156 109  75 111 109 157 159 158 156 158 156\n 148 159 158 160
+    159 158  97  84 103 106 154 159 159 158 162 155\n 150 156 158 157 158 158 109
+    101  99 102 156 158 158 160 163 162\n 153 158 156 158 155 160 148 116 131 117
+    158 159 158 160 161 161\n 154 158 159 163 158 158 129  96 108 103 160 157 159
+    159 161 160\n 155 159 161 158 161 160 105 112 108 131 157 157 157 161 161 155\n
+    156 156 157 157 161 161  92 112 115 110 151 158 159 160 160 159\n 158 157 158
+    160 159 160  95 158 160 114 154 158 162 160 159 161\n 157 157 157 159 159 158
+    127  96  79 119 156 158 159 160 159 162\n 159 160 158 159 160 160 122 133 106
+    116 157 159 160 161 159 155\n 159 158 159 159 159 155 125 141 101 114 157 159
+    161 160 162 155\n 163 158 160 159 159 157 111  96 138  95 162 161 162 160 162
+    165\n 159 159 158 161 162 157 150 156 159 157 160 161 161 162 161 163\n 149 144
+    139 151 149 148 141 131 130 132 145 147 144 141 136 133\n 152 153 155 154 155
+    156  91 102  73  77 157 157 158 159 160 162\n 150 154 154 156 156 157  96 155
+    117 120 156 159 159 160 160 162\n 143 154 156 156 157 159 108  72 107 110 157
+    158 161 160 161 157\n 144 154 156 157 158 158  95  81  99 105 155 159 160 160
+    163 158\n 148 155 156 159 158 159 107  96  96  99 156 159 160 162 162 163\n 150
+    156 157 157 158 157 146 115 133 114 157 159 160 162 161 162\n 151 157 157 159
+    158 158 127  97 111 105 160 160 161 163 163 160\n 152 156 157 158 160 159 100
+    109 107 130 160 161 161 163 164 156\n 153 157 158 159 159 160  88 110 113 101
+    150 160 161 163 164 162\n 154 157 159 158 160 161  95 158 159 110 155 160 160
+    162 163 162\n 154 156 159 159 159 161 130  97  80 116 161 161 161 162 166 163\n
+    155 157 159 160 160 159 119 131 106 117 162 161 162 163 164 159\n 156 157 160
+    159 160 152 120 141 101 113 161 163 162 163 164 159\n 157 159 159 159 159 155
+    109  94 134  91 161 163 164 163 165 167\n 158 159 160 159 161 161 151 154 159
+    158 161 163 163 162 164 163\n 154 150 145 156 155 154 144 137 134 137 148 153
+    150 145 141 138\n 156 156 156 158 159 159  96 108  77  80 160 160 162 163 164
+    166\n 154 157 158 158 160 160 101 159 121 122 158 160 163 163 164 164\n 146 155
+    158 160 161 161 110  75 113 112 159 161 164 163 164 162\n 148 158 159 160 162
+    159  98  87 104 108 157 162 163 165 165 161\n 150 158 160 159 161 161 113 103
+    100 102 160 163 163 163 165 166\n 151 158 159 161 160 159 148 118 135 114 159
+    161 163 165 166 164\n 154 158 159 162 160 160 129  97 110 106 160 161 165 165
+    166 164\n 155 159 160 161 161 160 104 114 110 133 162 164 163 166 168 161\n 155
+    157 159 162 160 160  93 117 117 105 152 164 164 166 168 164\n 156 159 160 161
+    161 161  97 159 160 111 156 162 162 165 165 165\n 156 158 159 160 161 160 132
+    \ 98  84 120 161 162 163 163 166 164\n 157 160 160 160 160 160 122 135 108 116
+    160 162 165 165 166 161\n 157 159 160 161 161 154 123 143 102 116 162 163 165
+    166 169 162\n 158 159 160 162 160 156 111  97 137  94 163 165 165 164 167 169\n
+    158 159 161 161 161 160 153 157 160 160 163 165 164 163 164 164\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1192976677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: france
+  PatternFilenameIndex: 2
+  PatternFilename: patt.france
+  PatternContents: " 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n
+    250 191 191 213 191 191 223 255 239 213 255 221 238 255 213 255\n 238  77 191
+    213  77 191  86 245 133  58 255 119 104 255  90 255\n 238  51 128 204  51 128
+    \ 83 248  95 136 207 119 131 204  90 255\n 238 102 255 255 102 255  83 186  42
+    \ 64 103 119 247  83  90 255\n 242 140 255 255 140 255 136 145 215 255 119 153
+    255 179 131 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 146 116 130 207  64  64 112 255 255 255 255 255 255\n 255 255 205 129 255
+    184 161 128 255 255 255 255 255 255 255 255\n 250 128 104 189 255 255 191  64
+    128 183 255 255 255 255 255 255\n 255 255 227  90 255 100 154 128 255 255 255
+    255 255 255 255 255\n 255 255 255 182 128 184 223 128 128 159 255 255 255 255
+    255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 250 191 191 213 191 191 223 255 239 213
+    255 221 238 255 213 255\n 238  77 191 213  77 191  86 245 133  58 255 119 104
+    255  90 255\n 238  51 128 204  51 128  83 248  95 136 207 119 131 204  90 255\n
+    238 102 255 255 102 255  83 186  42  64 103 119 247  83  90 255\n 242 140 255
+    255 140 255 136 145 215 255 119 153 255 179 131 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 255 255 146 116 130 207  64  64 112 255 255
+    255 255 255 255\n 255 255 205 129 255 184 161 128 255 255 255 255 255 255 255
+    255\n 250 128 104 189 255 255 191  64 128 183 255 255 255 255 255 255\n 255 255
+    227  90 255 100 154 128 255 255 255 255 255 255 255 255\n 255 255 255 182 128
+    184 223 128 128 159 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 250
+    191 191 213 191 191 223 255 239 213 255 221 238 255 213 255\n 238  77 191 213
+    \ 77 191  86 245 133  58 255 119 104 255  90 255\n 238  51 128 204  51 128  83
+    248  95 136 207 119 131 204  90 255\n 238 102 255 255 102 255  83 186  42  64
+    103 119 247  83  90 255\n 242 140 255 255 140 255 136 145 215 255 119 153 255
+    179 131 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    146 116 130 207  64  64 112 255 255 255 255 255 255\n 255 255 205 129 255 184
+    161 128 255 255 255 255 255 255 255 255\n 250 128 104 189 255 255 191  64 128
+    183 255 255 255 255 255 255\n 255 255 227  90 255 100 154 128 255 255 255 255
+    255 255 255 255\n 255 255 255 182 128 184 223 128 128 159 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n\n 225 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 225 213  90  90  90 131 255 255 255 255 255
+    255 255 255 255 255\n 225 255 255 204  83 179 255 255 255 255 255 255 255 255
+    255 255\n 225 238 104 131 247 255 255 255 255 255 255 255 255 255 255 255\n 225
+    221 119 119 119 153 255 255 255 255 255 255 255 255 255 255\n 225 255 255 207
+    103 119 255 255 255 255 255 255 255 255 255 255\n 225 213  58 136  64 255 255
+    255 112 255 183 255 159 255 255 255\n 225 239 133  95  42 215 255 255  64 255
+    128 255 128 255 255 255\n 225 255 245 248 186 145 255 255  64 128  64 128 128
+    255 255 255\n 225 223  86  83  83 136 255 255 207 161 191 154 223 255 255 255\n
+    225 191 191 128 255 255 255 255 130 184 255 100 184 255 255 255\n 225 191  77
+    \ 51 102 140 255 255 116 255 255 255 128 255 255 255\n 225 213 213 204 255 255
+    255 255 146 129 189  90 182 255 255 255\n 225 191 191 128 255 255 255 255 255
+    205 104 227 255 255 255 255\n 225 191  77  51 102 140 255 255 255 255 128 255
+    255 255 255 255\n 225 250 238 238 238 242 255 255 255 255 250 255 255 255 255
+    255\n 225 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 225 213
+    \ 90  90  90 131 255 255 255 255 255 255 255 255 255 255\n 225 255 255 204  83
+    179 255 255 255 255 255 255 255 255 255 255\n 225 238 104 131 247 255 255 255
+    255 255 255 255 255 255 255 255\n 225 221 119 119 119 153 255 255 255 255 255
+    255 255 255 255 255\n 225 255 255 207 103 119 255 255 255 255 255 255 255 255
+    255 255\n 225 213  58 136  64 255 255 255 112 255 183 255 159 255 255 255\n 225
+    239 133  95  42 215 255 255  64 255 128 255 128 255 255 255\n 225 255 245 248
+    186 145 255 255  64 128  64 128 128 255 255 255\n 225 223  86  83  83 136 255
+    255 207 161 191 154 223 255 255 255\n 225 191 191 128 255 255 255 255 130 184
+    255 100 184 255 255 255\n 225 191  77  51 102 140 255 255 116 255 255 255 128
+    255 255 255\n 225 213 213 204 255 255 255 255 146 129 189  90 182 255 255 255\n
+    225 191 191 128 255 255 255 255 255 205 104 227 255 255 255 255\n 225 191  77
+    \ 51 102 140 255 255 255 255 128 255 255 255 255 255\n 225 250 238 238 238 242
+    255 255 255 255 250 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 225 213  90  90  90 131 255 255 255 255 255 255
+    255 255 255 255\n 225 255 255 204  83 179 255 255 255 255 255 255 255 255 255
+    255\n 225 238 104 131 247 255 255 255 255 255 255 255 255 255 255 255\n 225 221
+    119 119 119 153 255 255 255 255 255 255 255 255 255 255\n 225 255 255 207 103
+    119 255 255 255 255 255 255 255 255 255 255\n 225 213  58 136  64 255 255 255
+    112 255 183 255 159 255 255 255\n 225 239 133  95  42 215 255 255  64 255 128
+    255 128 255 255 255\n 225 255 245 248 186 145 255 255  64 128  64 128 128 255
+    255 255\n 225 223  86  83  83 136 255 255 207 161 191 154 223 255 255 255\n 225
+    191 191 128 255 255 255 255 130 184 255 100 184 255 255 255\n 225 191  77  51
+    102 140 255 255 116 255 255 255 128 255 255 255\n 225 213 213 204 255 255 255
+    255 146 129 189  90 182 255 255 255\n 225 191 191 128 255 255 255 255 255 205
+    104 227 255 255 255 255\n 225 191  77  51 102 140 255 255 255 255 128 255 255
+    255 255 255\n 225 250 238 238 238 242 255 255 255 255 250 255 255 255 255 255\n\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 159 128 128
+    223 184 128 182 255 255 255\n 255 255 255 255 255 255 255 255 128 154 100 255
+    \ 90 227 255 255\n 255 255 255 255 255 255 183 128  64 191 255 255 189 104 128
+    250\n 255 255 255 255 255 255 255 255 128 161 184 255 129 205 255 255\n 255 255
+    255 255 255 255 112  64  64 207 130 116 146 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 255 131 179 255 153 119 255 215 145 136 255
+    140 255 255 140 242\n 255  90  83 247 119 103  64  42 186  83 255 102 255 255
+    102 238\n 255  90 204 131 119 207 136  95 248  83 128  51 204 128  51 238\n 255
+    \ 90 255 104 119 255  58 133 245  86 191  77 213 191  77 238\n 255 213 255 238
+    221 255 213 239 255 223 191 191 213 191 191 250\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 255 255 255 255 255 159 128 128 223 184 128 182 255 255 255\n 255 255 255
+    255 255 255 255 255 128 154 100 255  90 227 255 255\n 255 255 255 255 255 255
+    183 128  64 191 255 255 189 104 128 250\n 255 255 255 255 255 255 255 255 128
+    161 184 255 129 205 255 255\n 255 255 255 255 255 255 112  64  64 207 130 116
+    146 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 131
+    179 255 153 119 255 215 145 136 255 140 255 255 140 242\n 255  90  83 247 119
+    103  64  42 186  83 255 102 255 255 102 238\n 255  90 204 131 119 207 136  95
+    248  83 128  51 204 128  51 238\n 255  90 255 104 119 255  58 133 245  86 191
+    \ 77 213 191  77 238\n 255 213 255 238 221 255 213 239 255 223 191 191 213 191
+    191 250\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 159 128 128 223
+    184 128 182 255 255 255\n 255 255 255 255 255 255 255 255 128 154 100 255  90
+    227 255 255\n 255 255 255 255 255 255 183 128  64 191 255 255 189 104 128 250\n
+    255 255 255 255 255 255 255 255 128 161 184 255 129 205 255 255\n 255 255 255
+    255 255 255 112  64  64 207 130 116 146 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 131 179 255 153 119 255 215 145 136 255 140
+    255 255 140 242\n 255  90  83 247 119 103  64  42 186  83 255 102 255 255 102
+    238\n 255  90 204 131 119 207 136  95 248  83 128  51 204 128  51 238\n 255  90
+    255 104 119 255  58 133 245  86 191  77 213 191  77 238\n 255 213 255 238 221
+    255 213 239 255 223 191 191 213 191 191 250\n 225 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225\n\n 255 255 255 255 255 250 255 255 255 255 242
+    238 238 238 250 225\n 255 255 255 255 255 128 255 255 255 255 140 102  51  77
+    191 225\n 255 255 255 255 227 104 205 255 255 255 255 255 128 191 191 225\n 255
+    255 255 182  90 189 129 146 255 255 255 255 204 213 213 225\n 255 255 255 128
+    255 255 255 116 255 255 140 102  51  77 191 225\n 255 255 255 184 100 255 184
+    130 255 255 255 255 128 191 191 225\n 255 255 255 223 154 191 161 207 255 255
+    136  83  83  86 223 225\n 255 255 255 128 128  64 128  64 255 255 145 186 248
+    245 255 225\n 255 255 255 128 255 128 255  64 255 255 215  42  95 133 239 225\n
+    255 255 255 159 255 183 255 112 255 255 255  64 136  58 213 225\n 255 255 255
+    255 255 255 255 255 255 255 119 103 207 255 255 225\n 255 255 255 255 255 255
+    255 255 255 255 153 119 119 119 221 225\n 255 255 255 255 255 255 255 255 255
+    255 255 247 131 104 238 225\n 255 255 255 255 255 255 255 255 255 255 179  83
+    204 255 255 225\n 255 255 255 255 255 255 255 255 255 255 131  90  90  90 213
+    225\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 225\n 255 255
+    255 255 255 250 255 255 255 255 242 238 238 238 250 225\n 255 255 255 255 255
+    128 255 255 255 255 140 102  51  77 191 225\n 255 255 255 255 227 104 205 255
+    255 255 255 255 128 191 191 225\n 255 255 255 182  90 189 129 146 255 255 255
+    255 204 213 213 225\n 255 255 255 128 255 255 255 116 255 255 140 102  51  77
+    191 225\n 255 255 255 184 100 255 184 130 255 255 255 255 128 191 191 225\n 255
+    255 255 223 154 191 161 207 255 255 136  83  83  86 223 225\n 255 255 255 128
+    128  64 128  64 255 255 145 186 248 245 255 225\n 255 255 255 128 255 128 255
+    \ 64 255 255 215  42  95 133 239 225\n 255 255 255 159 255 183 255 112 255 255
+    255  64 136  58 213 225\n 255 255 255 255 255 255 255 255 255 255 119 103 207
+    255 255 225\n 255 255 255 255 255 255 255 255 255 255 153 119 119 119 221 225\n
+    255 255 255 255 255 255 255 255 255 255 255 247 131 104 238 225\n 255 255 255
+    255 255 255 255 255 255 255 179  83 204 255 255 225\n 255 255 255 255 255 255
+    255 255 255 255 131  90  90  90 213 225\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 225\n 255 255 255 255 255 250 255 255 255 255 242 238
+    238 238 250 225\n 255 255 255 255 255 128 255 255 255 255 140 102  51  77 191
+    225\n 255 255 255 255 227 104 205 255 255 255 255 255 128 191 191 225\n 255 255
+    255 182  90 189 129 146 255 255 255 255 204 213 213 225\n 255 255 255 128 255
+    255 255 116 255 255 140 102  51  77 191 225\n 255 255 255 184 100 255 184 130
+    255 255 255 255 128 191 191 225\n 255 255 255 223 154 191 161 207 255 255 136
+    \ 83  83  86 223 225\n 255 255 255 128 128  64 128  64 255 255 145 186 248 245
+    255 225\n 255 255 255 128 255 128 255  64 255 255 215  42  95 133 239 225\n 255
+    255 255 159 255 183 255 112 255 255 255  64 136  58 213 225\n 255 255 255 255
+    255 255 255 255 255 255 119 103 207 255 255 225\n 255 255 255 255 255 255 255
+    255 255 255 153 119 119 119 221 225\n 255 255 255 255 255 255 255 255 255 255
+    255 247 131 104 238 225\n 255 255 255 255 255 255 255 255 255 255 179  83 204
+    255 255 225\n 255 255 255 255 255 255 255 255 255 255 131  90  90  90 213 225\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 225\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!114 &1192976678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1192976668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68815202b64d4c956d71c0f176088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerType: 0
+  Tag: germany
+  PatternFilenameIndex: 3
+  PatternFilename: patt.germany
+  PatternContents: " 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n
+    255 255 223 136 201 255 255 255 255 255 255 255 255 255 255 255\n 255 245  84
+    191  97 196 245 210 255 240 212 255 255 255 255 255\n 255 192 169 223 184 208
+    100 109 147  82 159 255 255 255 255 255\n 255 202 153 223 141 128  61 128 164
+    128 255 128 172 255 255 255\n 255 255  82 128  97 128  91 107 157 128 255 255
+    255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 231 180 181 167
+    206 240 136 218 208 189 177 211 255 210 254\n 255 191 114  89 146  59 186 171
+    \ 92 128 152  84 152 195  70 255\n 255 191 174 128 208  64 147 142 109 128 246
+    111 231  56 138 255\n 255 207 194 159 220 112 145 117 100 128 248 147 255  80
+    230 255\n 255 255 255 255 255 255 255 255 255 255 255 255 206  93 255 255\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 255 255 223 136 201 255 255 255 255 255
+    255 255 255 255 255 255\n 255 245  84 191  97 196 245 210 255 240 212 255 255
+    255 255 255\n 255 192 169 223 184 208 100 109 147  82 159 255 255 255 255 255\n
+    255 202 153 223 141 128  61 128 164 128 255 128 172 255 255 255\n 255 255  82
+    128  97 128  91 107 157 128 255 255 255 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\n 255 231 180 181 167 206 240 136 218 208 189 177 211 255 210
+    254\n 255 191 114  89 146  59 186 171  92 128 152  84 152 195  70 255\n 255 191
+    174 128 208  64 147 142 109 128 246 111 231  56 138 255\n 255 207 194 159 220
+    112 145 117 100 128 248 147 255  80 230 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 206  93 255 255\n 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 255
+    255 223 136 201 255 255 255 255 255 255 255 255 255 255 255\n 255 245  84 191
+    \ 97 196 245 210 255 240 212 255 255 255 255 255\n 255 192 169 223 184 208 100
+    109 147  82 159 255 255 255 255 255\n 255 202 153 223 141 128  61 128 164 128
+    255 128 172 255 255 255\n 255 255  82 128  97 128  91 107 157 128 255 255 255
+    255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 231 180 181 167 206
+    240 136 218 208 189 177 211 255 210 254\n 255 191 114  89 146  59 186 171  92
+    128 152  84 152 195  70 255\n 255 191 174 128 208  64 147 142 109 128 246 111
+    231  56 138 255\n 255 207 194 159 220 112 145 117 100 128 248 147 255  80 230
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 206  93 255 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n\n 225 255 255 255 255 255 255 255
+    255 254 255 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255 210  70
+    138 230 255 255 255\n 225 255 255 255 255 255 255 255 255 255 195  56  80  93
+    255 255\n 225 255 255 255 172 255 255 255 255 211 152 231 255 206 255 255\n 225
+    255 255 255 128 255 255 255 255 177  84 111 147 255 255 255\n 225 255 212 159
+    255 255 255 255 255 189 152 246 248 255 255 255\n 225 255 240  82 128 128 255
+    255 255 208 128 128 128 255 255 255\n 225 255 255 147 164 157 255 255 255 218
+    \ 92 109 100 255 255 255\n 225 255 210 109 128 107 255 255 255 136 171 142 117
+    255 255 255\n 225 255 245 100  61  91 255 255 255 240 186 147 145 255 255 255\n
+    225 255 196 208 128 128 255 255 255 206  59  64 112 255 255 255\n 225 201  97
+    184 141  97 255 255 255 167 146 208 220 255 255 255\n 225 136 191 223 223 128
+    255 255 255 181  89 128 159 255 255 255\n 225 223  84 169 153  82 255 255 255
+    180 114 174 194 255 255 255\n 225 255 245 192 202 255 255 255 255 231 191 191
+    207 255 255 255\n 225 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 225 255 255 255 255 255 255 255 255 254 255 255 255 255 255 255\n 225 255
+    255 255 255 255 255 255 255 210  70 138 230 255 255 255\n 225 255 255 255 255
+    255 255 255 255 255 195  56  80  93 255 255\n 225 255 255 255 172 255 255 255
+    255 211 152 231 255 206 255 255\n 225 255 255 255 128 255 255 255 255 177  84
+    111 147 255 255 255\n 225 255 212 159 255 255 255 255 255 189 152 246 248 255
+    255 255\n 225 255 240  82 128 128 255 255 255 208 128 128 128 255 255 255\n 225
+    255 255 147 164 157 255 255 255 218  92 109 100 255 255 255\n 225 255 210 109
+    128 107 255 255 255 136 171 142 117 255 255 255\n 225 255 245 100  61  91 255
+    255 255 240 186 147 145 255 255 255\n 225 255 196 208 128 128 255 255 255 206
+    \ 59  64 112 255 255 255\n 225 201  97 184 141  97 255 255 255 167 146 208 220
+    255 255 255\n 225 136 191 223 223 128 255 255 255 181  89 128 159 255 255 255\n
+    225 223  84 169 153  82 255 255 255 180 114 174 194 255 255 255\n 225 255 245
+    192 202 255 255 255 255 231 191 191 207 255 255 255\n 225 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255
+    254 255 255 255 255 255 255\n 225 255 255 255 255 255 255 255 255 210  70 138
+    230 255 255 255\n 225 255 255 255 255 255 255 255 255 255 195  56  80  93 255
+    255\n 225 255 255 255 172 255 255 255 255 211 152 231 255 206 255 255\n 225 255
+    255 255 128 255 255 255 255 177  84 111 147 255 255 255\n 225 255 212 159 255
+    255 255 255 255 189 152 246 248 255 255 255\n 225 255 240  82 128 128 255 255
+    255 208 128 128 128 255 255 255\n 225 255 255 147 164 157 255 255 255 218  92
+    109 100 255 255 255\n 225 255 210 109 128 107 255 255 255 136 171 142 117 255
+    255 255\n 225 255 245 100  61  91 255 255 255 240 186 147 145 255 255 255\n 225
+    255 196 208 128 128 255 255 255 206  59  64 112 255 255 255\n 225 201  97 184
+    141  97 255 255 255 167 146 208 220 255 255 255\n 225 136 191 223 223 128 255
+    255 255 181  89 128 159 255 255 255\n 225 223  84 169 153  82 255 255 255 180
+    114 174 194 255 255 255\n 225 255 245 192 202 255 255 255 255 231 191 191 207
+    255 255 255\n 225 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n\n
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255  93 206 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 230  80 255 147 248 128 100 117
+    145 112 220 159 194 207 255\n 255 138  56 231 111 246 128 109 142 147  64 208
+    128 174 191 255\n 255  70 195 152  84 152 128  92 171 186  59 146  89 114 191
+    255\n 254 210 255 211 177 189 208 218 136 240 206 167 181 180 231 255\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 128 157 107  91 128
+    \ 97 128  82 255 255\n 255 255 255 172 128 255 128 164 128  61 128 141 223 153
+    202 255\n 255 255 255 255 255 159  82 147 109 100 208 184 223 169 192 255\n 255
+    255 255 255 255 212 240 255 210 245 196  97 191  84 245 255\n 255 255 255 255
+    255 255 255 255 255 255 255 201 136 223 255 255\n 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225 225\n 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255\n 255 255  93 206 255 255 255 255 255 255 255 255 255 255 255 255\n
+    255 230  80 255 147 248 128 100 117 145 112 220 159 194 207 255\n 255 138  56
+    231 111 246 128 109 142 147  64 208 128 174 191 255\n 255  70 195 152  84 152
+    128  92 171 186  59 146  89 114 191 255\n 254 210 255 211 177 189 208 218 136
+    240 206 167 181 180 231 255\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255
+    255\n 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255
+    255 255 255 255 128 157 107  91 128  97 128  82 255 255\n 255 255 255 172 128
+    255 128 164 128  61 128 141 223 153 202 255\n 255 255 255 255 255 159  82 147
+    109 100 208 184 223 169 192 255\n 255 255 255 255 255 212 240 255 210 245 196
+    \ 97 191  84 245 255\n 255 255 255 255 255 255 255 255 255 255 255 201 136 223
+    255 255\n 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225 225\n 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255\n 255 255  93 206 255 255 255
+    255 255 255 255 255 255 255 255 255\n 255 230  80 255 147 248 128 100 117 145
+    112 220 159 194 207 255\n 255 138  56 231 111 246 128 109 142 147  64 208 128
+    174 191 255\n 255  70 195 152  84 152 128  92 171 186  59 146  89 114 191 255\n
+    254 210 255 211 177 189 208 218 136 240 206 167 181 180 231 255\n 255 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255
+    255 255 255 255 255 255 255 255 255 255\n 255 255 255 255 255 255 255 255 255
+    255 255 255 255 255 255 255\n 255 255 255 255 255 255 128 157 107  91 128  97
+    128  82 255 255\n 255 255 255 172 128 255 128 164 128  61 128 141 223 153 202
+    255\n 255 255 255 255 255 159  82 147 109 100 208 184 223 169 192 255\n 255 255
+    255 255 255 212 240 255 210 245 196  97 191  84 245 255\n 255 255 255 255 255
+    255 255 255 255 255 255 201 136 223 255 255\n 225 225 225 225 225 225 225 225
+    225 225 225 225 225 225 225 225\n\n 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 255 225\n 255 255 255 207 191 191 231 255 255 255 255 202 192 245
+    255 225\n 255 255 255 194 174 114 180 255 255 255  82 153 169  84 223 225\n 255
+    255 255 159 128  89 181 255 255 255 128 223 223 191 136 225\n 255 255 255 220
+    208 146 167 255 255 255  97 141 184  97 201 225\n 255 255 255 112  64  59 206
+    255 255 255 128 128 208 196 255 225\n 255 255 255 145 147 186 240 255 255 255
+    \ 91  61 100 245 255 225\n 255 255 255 117 142 171 136 255 255 255 107 128 109
+    210 255 225\n 255 255 255 100 109  92 218 255 255 255 157 164 147 255 255 225\n
+    255 255 255 128 128 128 208 255 255 255 128 128  82 240 255 225\n 255 255 255
+    248 246 152 189 255 255 255 255 255 159 212 255 225\n 255 255 255 147 111  84
+    177 255 255 255 255 128 255 255 255 225\n 255 255 206 255 231 152 211 255 255
+    255 255 172 255 255 255 225\n 255 255  93  80  56 195 255 255 255 255 255 255
+    255 255 255 225\n 255 255 255 230 138  70 210 255 255 255 255 255 255 255 255
+    225\n 255 255 255 255 255 255 254 255 255 255 255 255 255 255 255 225\n 255 255
+    255 255 255 255 255 255 255 255 255 255 255 255 255 225\n 255 255 255 207 191
+    191 231 255 255 255 255 202 192 245 255 225\n 255 255 255 194 174 114 180 255
+    255 255  82 153 169  84 223 225\n 255 255 255 159 128  89 181 255 255 255 128
+    223 223 191 136 225\n 255 255 255 220 208 146 167 255 255 255  97 141 184  97
+    201 225\n 255 255 255 112  64  59 206 255 255 255 128 128 208 196 255 225\n 255
+    255 255 145 147 186 240 255 255 255  91  61 100 245 255 225\n 255 255 255 117
+    142 171 136 255 255 255 107 128 109 210 255 225\n 255 255 255 100 109  92 218
+    255 255 255 157 164 147 255 255 225\n 255 255 255 128 128 128 208 255 255 255
+    128 128  82 240 255 225\n 255 255 255 248 246 152 189 255 255 255 255 255 159
+    212 255 225\n 255 255 255 147 111  84 177 255 255 255 255 128 255 255 255 225\n
+    255 255 206 255 231 152 211 255 255 255 255 172 255 255 255 225\n 255 255  93
+    \ 80  56 195 255 255 255 255 255 255 255 255 255 225\n 255 255 255 230 138  70
+    210 255 255 255 255 255 255 255 255 225\n 255 255 255 255 255 255 254 255 255
+    255 255 255 255 255 255 225\n 255 255 255 255 255 255 255 255 255 255 255 255
+    255 255 255 225\n 255 255 255 207 191 191 231 255 255 255 255 202 192 245 255
+    225\n 255 255 255 194 174 114 180 255 255 255  82 153 169  84 223 225\n 255 255
+    255 159 128  89 181 255 255 255 128 223 223 191 136 225\n 255 255 255 220 208
+    146 167 255 255 255  97 141 184  97 201 225\n 255 255 255 112  64  59 206 255
+    255 255 128 128 208 196 255 225\n 255 255 255 145 147 186 240 255 255 255  91
+    \ 61 100 245 255 225\n 255 255 255 117 142 171 136 255 255 255 107 128 109 210
+    255 225\n 255 255 255 100 109  92 218 255 255 255 157 164 147 255 255 225\n 255
+    255 255 128 128 128 208 255 255 255 128 128  82 240 255 225\n 255 255 255 248
+    246 152 189 255 255 255 255 255 159 212 255 225\n 255 255 255 147 111  84 177
+    255 255 255 255 128 255 255 255 225\n 255 255 206 255 231 152 211 255 255 255
+    255 172 255 255 255 225\n 255 255  93  80  56 195 255 255 255 255 255 255 255
+    255 255 225\n 255 255 255 230 138  70 210 255 255 255 255 255 255 255 255 225\n
+    255 255 255 255 255 255 254 255 255 255 255 255 255 255 255 225\n\n"
+  PatternWidth: 0.08
+  BarcodeID: 0
+  MultiConfigFile: 
+  NFTDataName: 
+  currentUseContPoseEstimation: 0
+  currentFiltered: 0
+  currentFilterSampleRate: 30
+  currentFilterCutoffFreq: 15
+  currentNFTScale: 1
+--- !u!1 &1221945333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1221945334}
+  - 114: {fileID: 1221945335}
+  m_Layer: 10
+  m_Name: Marker scene 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1221945334
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1221945333}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2075685621}
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 7
+--- !u!114 &1221945335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1221945333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: france
+--- !u!1 &1226253723 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+  m_PrefabInternal: {fileID: 1899410736}
+--- !u!4 &1226253724 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+  m_PrefabInternal: {fileID: 1899410736}
+--- !u!114 &1226253727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1226253723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2f742664e484449914b149cb43be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnswer: Plants
+  quizObject: {fileID: 434171835}
+--- !u!1 &1236050838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1236050839}
+  - 114: {fileID: 1236050840}
+  m_Layer: 10
+  m_Name: Marker scene 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236050839
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236050838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2043176652}
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 2
+--- !u!114 &1236050840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236050838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: meat
+--- !u!1 &1310133689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100152, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1310133690}
+  - 33: {fileID: 1310133692}
+  - 23: {fileID: 1310133691}
+  m_Layer: 0
+  m_Name: Cylinder.28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1310133690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400152, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310133689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.7970343, y: 1.9791414, z: 3.0378091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2075685621}
+  m_RootOrder: 1
+--- !u!23 &1310133691
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300152, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310133689}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 733d5d98d55d241d49c95e85b6d1d5c1, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1310133692
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300152, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1310133689}
+  m_Mesh: {fileID: 4300110, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+--- !u!1 &1562006351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1562006353}
+  - 108: {fileID: 1562006352}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1562006352
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1562006351}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_AreaSize: {x: 1, y: 1}
+--- !u!4 &1562006353
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1562006351}
+  m_LocalRotation: {x: -0.27213153, y: 0.13585429, z: 0.89079446, w: 0.3375993}
+  m_LocalPosition: {x: 0.044, y: -0, z: -0.17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 0
+--- !u!1 &1591555085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1591555086}
+  - 114: {fileID: 1591555087}
+  m_Layer: 10
+  m_Name: Marker scene 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1591555086
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1591555085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 877791245}
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 1
+--- !u!114 &1591555087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1591555085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 1
+  eventReceiver: {fileID: 0}
+  _markerTag: kanji
+--- !u!1001 &1825827750
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1836108492}
+    m_Modifications:
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.04999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1825827751 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
+  m_PrefabInternal: {fileID: 1825827750}
+--- !u!1 &1836108491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1836108492}
+  - 114: {fileID: 1836108493}
+  m_Layer: 10
+  m_Name: Marker scene 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1836108492
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836108491}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1825827751}
+  m_Father: {fileID: 749452075}
+  m_RootOrder: 4
+--- !u!114 &1836108493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836108491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d1ce5da0c446acaea956b6ae07690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsToRemainVisible: 0
+  eventReceiver: {fileID: 0}
+  _markerTag: cow
+--- !u!1 &1836797516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114898, guid: 700c11c01e6584746906ab345d9873d6, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1836797520}
+  - 222: {fileID: 1836797519}
+  - 114: {fileID: 1836797518}
+  - 114: {fileID: 1836797517}
+  m_Layer: 5
+  m_Name: StartQuiz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1836797517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11472162, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836797516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1836797518}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 166568991}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 434171832}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1836797516}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1836797518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11481970, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836797516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1836797519
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22224404, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836797516}
+--- !u!224 &1836797520
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22406078, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1836797516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2081420896}
+  m_Father: {fileID: 498318939}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -267}
+  m_SizeDelta: {x: 350, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1899410736
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 618347596}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.009999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.009999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+      propertyPath: m_Name
+      value: Bush
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6400000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1995543610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1995543613}
+  - 114: {fileID: 1995543612}
+  - 114: {fileID: 1995543611}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1995543611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1995543610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1995543612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1995543610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1995543613
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1995543610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!1 &2027411583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: e426137a9cfec4162b6e95c54e00fb91, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2027411584}
+  - 33: {fileID: 2027411586}
+  - 23: {fileID: 2027411585}
+  m_Layer: 10
+  m_Name: bluejay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027411584
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: e426137a9cfec4162b6e95c54e00fb91, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027411583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 358399850}
+  m_RootOrder: 0
+--- !u!23 &2027411585
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: e426137a9cfec4162b6e95c54e00fb91,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027411583}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 66ff848fcdbff40ad961259624dbe262, type: 2}
+  - {fileID: 2100000, guid: 731ebe2a043354bc78be8985a58f9bda, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2027411586
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: e426137a9cfec4162b6e95c54e00fb91,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2027411583}
+  m_Mesh: {fileID: 4300000, guid: e426137a9cfec4162b6e95c54e00fb91, type: 3}
+--- !u!1001 &2043176651
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1236050839}
+    m_Modifications:
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.0144
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 106110, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 106110, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2043176652 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 423938, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+  m_PrefabInternal: {fileID: 2043176651}
+--- !u!1 &2043176653 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 106110, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
+  m_PrefabInternal: {fileID: 2043176651}
+--- !u!114 &2043176654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2043176653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2f742664e484449914b149cb43be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnswer: Meat
+  quizObject: {fileID: 434171835}
+--- !u!1 &2075685620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100270, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2075685621}
+  m_Layer: 0
+  m_Name: French Flag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2075685621
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400270, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2075685620}
+  m_LocalRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+  m_LocalPosition: {x: 0.38, y: -0.30490017, z: -0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_Children:
+  - {fileID: 1030373639}
+  - {fileID: 1310133690}
+  m_Father: {fileID: 1221945334}
+  m_RootOrder: 0
+--- !u!1 &2081420895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 154548, guid: 700c11c01e6584746906ab345d9873d6, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 2081420896}
+  - 222: {fileID: 2081420898}
+  - 114: {fileID: 2081420897}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2081420896
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22493624, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2081420895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1836797520}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2081420897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11481734, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2081420895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 33
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Compsognathus Quiz!
+--- !u!222 &2081420898
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22273568, guid: 700c11c01e6584746906ab345d9873d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2081420895}
+--- !u!1 &2103677708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2103677709}
+  - 33: {fileID: 2103677711}
+  - 23: {fileID: 2103677710}
+  m_Layer: 0
+  m_Name: Cube.27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2103677709
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103677708}
+  m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
+  m_LocalPosition: {x: -4.774352, y: 3.2603972, z: 3.0378091}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 309239768}
+  m_RootOrder: 0
+--- !u!23 &2103677710
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300038, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103677708}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e534c90b658f1437a94a46be50c5a350, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2103677711
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300038, guid: fb0f6076536194e42b7acb32151f472d,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2103677708}
+  m_Mesh: {fileID: 4300104, guid: fb0f6076536194e42b7acb32151f472d, type: 3}
