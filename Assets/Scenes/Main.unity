@@ -238,7 +238,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 160352, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 160352, guid: 1e7a3a8f4618b3c4bae87a8ff1b36572, type: 2}
       propertyPath: m_TagString
@@ -260,7 +260,7 @@ GameObject:
   - 4: {fileID: 191839518}
   - 33: {fileID: 191839520}
   - 23: {fileID: 191839519}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,13 +398,14 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 309239768}
-  m_Layer: 0
+  - 114: {fileID: 309239769}
+  m_Layer: 10
   m_Name: German Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &309239768
 Transform:
   m_ObjectHideFlags: 0
@@ -419,6 +420,19 @@ Transform:
   - {fileID: 191839518}
   m_Father: {fileID: 1146419142}
   m_RootOrder: 0
+--- !u!114 &309239769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 309239767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2f742664e484449914b149cb43be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnswer: Germany
+  quizObject: {fileID: 434171835}
 --- !u!1 &358399849
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &358399850
 Transform:
   m_ObjectHideFlags: 0
@@ -582,10 +596,11 @@ MonoBehaviour:
   - What does this dino eat?
   - This dino is the ancestor of...
   - The first fossil of this dino was found in...
+  - Congratulations!
   answerList:
   - Meat
   - Birds
-  - 3
+  - Germany
   maxQuestionNumber: 3
   quizText: {fileID: 265263135}
 --- !u!1 &454201467 stripped
@@ -1033,7 +1048,7 @@ GameObject:
   - 4: {fileID: 1030373639}
   - 33: {fileID: 1030373641}
   - 23: {fileID: 1030373640}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube.28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,8 +1461,8 @@ MonoBehaviour:
   NearPlane: 0.01
   FarPlane: 5
   ContentRotate90: 1
-  ContentFlipH: 1
-  ContentFlipV: 1
+  ContentFlipH: 0
+  ContentFlipV: 0
   ContentAlign: 4
   currentContentMode: 1
   currentThresholdMode: 0
@@ -2894,7 +2909,7 @@ GameObject:
   - 4: {fileID: 1310133690}
   - 33: {fileID: 1310133692}
   - 23: {fileID: 1310133691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder.28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3105,7 +3120,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: f3873af2ecb154c1cafd7b197f7a6dfb, type: 3}
       propertyPath: m_Layer
@@ -3369,7 +3384,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ebc45ba3ff076884e92c0f152cc3b98e, type: 2}
       propertyPath: m_Name
@@ -3562,7 +3577,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 106110, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c84e9a079b63c4b85bb7c77b5ec5706f, type: 2}
@@ -3596,13 +3611,14 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2075685621}
-  m_Layer: 0
+  - 114: {fileID: 2075685622}
+  m_Layer: 10
   m_Name: French Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2075685621
 Transform:
   m_ObjectHideFlags: 0
@@ -3617,6 +3633,19 @@ Transform:
   - {fileID: 1310133690}
   m_Father: {fileID: 1221945334}
   m_RootOrder: 0
+--- !u!114 &2075685622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2075685620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2f742664e484449914b149cb43be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnswer: France
+  quizObject: {fileID: 434171835}
 --- !u!1 &2081420895
 GameObject:
   m_ObjectHideFlags: 0
@@ -3703,7 +3732,7 @@ GameObject:
   - 4: {fileID: 2103677709}
   - 33: {fileID: 2103677711}
   - 23: {fileID: 2103677710}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube.27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
